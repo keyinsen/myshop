@@ -1,0 +1,982 @@
+* {
+  margin: 0px auto;
+  padding: 0px;
+}
+body {
+  background-color: #F1F1F1;
+}
+.red {
+  color: #FF0000;
+  font-family: "微软雅黑";
+}
+.head {
+  background-color: #F8F8F8;
+  min-width: 1200px;
+  width: 100%;
+  height: 35px;
+  border-bottom: 1px #CCCCCC solid;
+}
+.head .head-left {
+  display: inline-block;
+  float: left;
+  margin-left: 10px;
+}
+.head .head-left > span {
+  margin-left: 2px;
+}
+.head .head-left > a {
+  margin-left: 2px;
+  color: #FF0000;
+}
+.head .head-left .btn-default {
+  font-family: "微软雅黑";
+  background-color: #F8F8F8;
+  border: 0px;
+  outline: none;
+}
+.head .head-right {
+  padding: 0px;
+  height: 35px;
+  float: right;
+  list-style: none;
+  margin: 0px;
+  line-height: 35px;
+}
+.head .head-right li {
+  height: 35px;
+  float: right;
+  padding: 0px;
+  margin-right: 60px;
+}
+.head .head-right li > a {
+  color: #6C6C6C;
+  font-family: "微软雅黑";
+  font-size: 14px;
+  padding: 0px;
+  text-decoration: none;
+}
+.head .head-right li > a:hover {
+  color: #FF0000;
+}
+.head .head-right .shopli:hover {
+  background-color: #FFFFFF;
+}
+.head .head-right .shopli:hover .shop {
+  display: block;
+  border-left: 1px solid #FCF8E3;
+  border-right: 1px solid #FCF8E3;
+  border-bottom: 1px solid #FCF8E3;
+  box-shadow: 0px 0px 5px #CCCCCC;
+  background-color: #FFFFFF;
+}
+.head .head-right .shop {
+  top: 35px;
+  position: absolute;
+  z-index: 10;
+  display: none;
+  list-style: none;
+  width: 320px;
+  background-color: #FFFFFF;
+}
+.head .head-right .shop > table {
+  width: 100%;
+  margin-bottom: 5px;
+  table-layout: fixed;
+}
+.head .head-right .shop > table tr {
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  border-bottom: 1px dashed #CCCCCC;
+}
+.head .head-right .shop > table tr:hover {
+  background-color: #CCCCCC;
+}
+.head .head-right .shop > table tr td {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  text-align: center;
+  font-size: 8px;
+  font-family: "微软雅黑";
+}
+.head .head-right .shop > table tr td img {
+  display: inline-block;
+  width: 30px;
+  height: 40px;
+}
+.head .head-right .shop > table tr td .remove {
+  display: inline-block;
+  border-radius: 3px;
+  width: 30px;
+  text-align: center;
+  height: 25px;
+  color: #FFFFFF;
+  line-height: 25px;
+  text-decoration: none;
+  background-color: #FF0000;
+}
+.head .head-right .shop > table tr td:nth-child(1) {
+  width: 1%;
+}
+.head .head-right .shop > table tr td:nth-child(2) {
+  width: 15%;
+}
+.head .head-right .shop > table tr td:nth-child(3) {
+  width: 40%;
+}
+.head .head-right .shop > table tr td:nth-child(4) {
+  width: 15%;
+  color: #FF0000;
+  font-weight: bold;
+}
+.head .head-right .shop > table tr td:nth-child(5) {
+  width: 13%;
+}
+.head .head-right .shop > table tr td:nth-child(6) {
+  width: 14%;
+}
+.head .head-right .shop .cart-sum {
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+}
+.head .head-right .shop .cart-sum .span4 {
+  font-size: 8px;
+}
+.head .head-right .shop .shop-cart {
+  display: inline-block;
+  width: 50%;
+  height: 30px;
+  float: right;
+  background-color: #FF7A64;
+  line-height: 30px;
+  text-decoration: none;
+  text-align: center;
+  color: #FFFFFF;
+  font-family: "微软雅黑";
+}
+.head .head-right .shop .shop-cart:hover {
+  background-color: #ED145B;
+}
+.ct-top {
+  min-width: 1200px;
+  width: 100%;
+  background: #FFFFFF;
+  padding: 0px;
+}
+.ct-top .ct-top1 {
+  width: 90%;
+  height: 100px;
+  line-height: 100px;
+}
+.ct-top .ct-top1 h2 {
+  text-align: center;
+  display: inline-block;
+  font-family: "微软雅黑";
+  color: #FF3300;
+  margin: 0px;
+}
+.ct-top .ct-top1 .form-control {
+  margin-top: 33px;
+  border-radius: 0px;
+  box-shadow: none;
+  border: 1px solid #FF5B01;
+}
+.ct-top .ct-top1 .btn-default {
+  background-color: #FF5B01;
+  border-radius: 0px;
+  outline: 0;
+  width: 50px;
+  border: 1px solid #FF5B01;
+}
+.ct-top .ct-top1 .btn-default:active {
+  background-color: #FF5B01;
+  outline: 0;
+  border: none;
+}
+.ct-head {
+  min-width: 1200px;
+  width: 100%;
+  height: 35px;
+  line-height: 35px;
+  background-color: #1C1C1C;
+  box-shadow: 0px 2px #9E9A96;
+}
+.ct-head .ct-ul {
+  width: 400px;
+  min-width: 1100px;
+  margin-left: 70px;
+  display: inline-block;
+  list-style: none;
+}
+.ct-head .ct-ul .li {
+  margin-right: 20px;
+}
+.ct-head .ct-ul .li > a {
+  width: 100px;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 20px;
+  border-radius: 4px;
+}
+.ct-head .ct-ul .li > a:hover {
+  background-color: #FF0000;
+}
+.ct-head .ct-ul li {
+  float: left;
+  text-align: center;
+}
+.container-fluid {
+  padding: 0px;
+}
+.ct-main {
+  min-width: 1200px;
+  margin-top: 10px;
+  width: 90%;
+  background-color: #FFFFFF;
+}
+.ct-main .ct-left {
+  padding: 0px;
+  text-align: center;
+}
+.ct-main .ct-left .touxiang {
+  border: 1px solid #CCCCCC;
+  padding-bottom: 10px;
+}
+.ct-main .ct-left .touxiang > img {
+  margin-top: 20px;
+  width: 100px;
+  height: 100px;
+  border: 1px solid #CCCCCC;
+}
+.ct-main .ct-left .ct-left-meun {
+  text-align: left;
+  background-color: #EDE7E1;
+  border-right: 1px solid #CCCCCC;
+  border-left: 1px solid #CCCCCC;
+  font-weight: bold;
+}
+.ct-main .ct-left ul {
+  width: 95%;
+  background-color: #F8F6F4;
+  list-style: none;
+  margin-bottom: 0px;
+}
+.ct-main .ct-left ul li {
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  border-bottom: 1px solid #CCCCCC;
+  border-left: 1px solid #CCCCCC;
+  border-right: 1px solid #CCCCCC;
+}
+.ct-main .ct-left ul li:hover {
+  background-color: #CCCCCC;
+}
+.ct-main .ct-left ul li a {
+  text-decoration: none;
+  color: #6C6C6C;
+}
+.ct-main .ct-right {
+  padding: 0px;
+}
+.ct-main .ct-right .ct-right-head {
+  padding-top: 20px;
+  height: 50px;
+  border-bottom: 1px solid #CCCCCC;
+  font-size: 20px;
+}
+.ct-main .ct-right .touxiang1 {
+  width: 140px;
+  height: 140px;
+  right: 50px;
+  border: 1px solid #CCCCCC;
+  position: absolute;
+  text-align: center;
+}
+.ct-main .ct-right .touxiang1 > img {
+  width: 140px;
+  height: 140px;
+}
+.ct-main .ct-right .touxiang1 .btn-touxiang {
+  margin-top: 10px;
+  display: block;
+  text-align: center;
+  line-height: 30px;
+  width: 80px;
+  height: 30px;
+  background-color: peachpuff;
+  text-decoration: none;
+}
+.ct-main .ct-right .xing {
+  color: #FF0000;
+}
+.ct-main .ct-right .perinfo {
+  margin-top: 10px;
+  width: 85%;
+  height: 40px;
+}
+.ct-main .ct-right .perinfo input {
+  height: 30px;
+}
+.ct-main .ct-right .perinfo > label {
+  width: 100px;
+  font-family: Arial, 'Microsoft Yahei', '\5FAE\8F6F\96C5\9ED1';
+  text-align: right;
+  margin-right: 10px;
+}
+.ct-main .ct-right .perinfo > select {
+  text-align: center;
+}
+.ct-main .ct-right .perinfo span {
+  color: #FF0000;
+}
+.ct-main .ct-right .perinfo-mess {
+  margin-top: 10px;
+  width: 85%;
+  height: 100px;
+}
+.ct-main .ct-right .perinfo-mess > label {
+  width: 100px;
+  font-family: Arial, 'Microsoft Yahei', '\5FAE\8F6F\96C5\9ED1';
+  text-align: right;
+  margin-right: 10px;
+}
+.ct-main .ct-right .perinfo-mess > textarea {
+  resize: none;
+}
+.ct-main .ct-right .perinfo-mess .form-control {
+  margin-top: -20px;
+  margin-left: 110px;
+  width: 200px;
+}
+.ct-main .ct-right .perinfo-mess .btn {
+  margin-left: 110px;
+}
+.ct-main .ct-right #uinfoModal2 .modal-body {
+  text-align: center;
+  color: green;
+}
+.ct-main .ct-right .usersafe {
+  width: 70%;
+  margin-top: 10px;
+}
+.ct-main .ct-right .usersafe p {
+  margin-left: 120px;
+  color: #999999;
+}
+.ct-main .ct-right .usersafe label {
+  width: 100px;
+  margin-right: 10px;
+  text-align: right;
+}
+.ct-main .ct-right .usersafe input {
+  display: inline;
+  width: 200px;
+}
+.ct-main .ct-right .usersafe .xing {
+  color: #FF0000;
+}
+.ct-main .ct-right .usersafe span {
+  color: #FF0000;
+}
+.ct-main .ct-right .usersafe .que {
+  display: inline-block;
+  width: 200px;
+  height: 30px;
+  text-decoration: underline;
+}
+.ct-main .ct-right .usersafe .Quetext {
+  margin-left: 110px;
+}
+.ct-main .ct-right .usersafe .voidimg {
+  display: inline-block;
+  width: 100px;
+  height: 30px;
+  border: 1px solid #CCCCCC;
+}
+.ct-main .ct-right .safe-btn {
+  width: 50%;
+  text-align: center;
+}
+.ct-main .ct-right .usersafe-text {
+  padding-left: 110px;
+  width: 70%;
+}
+.ct-main .ct-right .usersafe-text label {
+  width: 100px;
+  margin-right: 10px;
+  text-align: right;
+}
+.ct-main .ct-right .usersafe-text p {
+  margin-left: 5px;
+  color: #999999;
+}
+.ct-main .ct-right .usersafe-text input {
+  display: inline;
+  width: 200px;
+}
+.ct-main .ct-right .usersafe-text .xing {
+  color: #FF0000;
+}
+.ct-main .ct-right .usersafe-text span {
+  color: #FF0000;
+}
+.ct-main .ct-right .menory-font1 {
+  font-size: 20px;
+}
+.ct-main .ct-right .menory-font2 {
+  font-family: "微软雅黑";
+  font-weight: bold;
+  color: #ED145B;
+}
+.ct-main .ct-right .address-font {
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  display: block;
+  font-size: 17px;
+  font-weight: bold;
+  font-family: "微软雅黑";
+  color: #000000;
+}
+.ct-main .ct-right .address-div {
+  margin-bottom: 10px;
+}
+.ct-main .ct-right .address-div label {
+  width: 100px;
+  margin-right: 10px;
+  font-family: "微软雅黑";
+  font-weight: 100;
+  text-align: right;
+}
+.ct-main .ct-right .address-div input {
+  display: inline;
+  width: 200px;
+}
+.ct-main .ct-right .address-div .xing {
+  color: #FF0000;
+}
+.ct-main .ct-right .address-div span {
+  color: #FF0000;
+}
+.ct-main .ct-right .address-div .address-list1 {
+  display: inline-block;
+  width: 150px;
+}
+.ct-main .ct-right .address-div .address-list2 {
+  display: inline-block;
+  width: 100px;
+}
+.ct-main .ct-right .address-div .address-list3 {
+  display: inline-block;
+  width: 100px;
+}
+.ct-main .ct-right .address-div .address-detail-t {
+  position: absolute;
+  margin-top: 0px;
+}
+.ct-main .ct-right .address-div .address-detail {
+  margin-left: 115px;
+  margin-top: 10px;
+  display: inline-block;
+  height: 50px;
+  resize: none;
+  width: 600px;
+}
+.ct-main .ct-right .address-div p {
+  margin-left: 10px;
+}
+.ct-main .ct-right .address-table {
+  width: 100%;
+}
+.ct-main .ct-right .address-table table {
+  table-layout: fixed;
+  width: 90%;
+  border-collapse: collapse;
+}
+.ct-main .ct-right .address-table table tr th {
+  border: 1px solid #CCCCCC;
+  text-align: center;
+}
+.ct-main .ct-right .address-table table tr td {
+  font-size: 12px;
+  height: 40px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  border: 1px solid #CCCCCC;
+  text-align: center;
+}
+.ct-main .ct-right .address-table table tr td a:nth-child(1) {
+  color: green;
+}
+.ct-main .ct-right .address-table table tr td a:nth-child(2) {
+  color: red;
+}
+.ct-main .ct-right .address-table table th:nth-child(1) {
+  width: 1%;
+}
+.ct-main .ct-right .address-table table th:nth-child(2) {
+  width: 15%;
+}
+.ct-main .ct-right .address-table table th:nth-child(3) {
+  width: 53%;
+}
+.ct-main .ct-right .address-table table th:nth-child(4) {
+  width: 12%;
+}
+.ct-main .ct-right .address-table table th:nth-child(5) {
+  width: 10%;
+}
+.ct-main .ct-right .address-table table th:nth-child(6) {
+  width: 12%;
+}
+.ct-main .ct-right #MyaddressModal .modal-body {
+  text-align: center;
+  color: red;
+}
+.ct-main .ct-right .order-sogo {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  width: 100%;
+}
+.ct-main .ct-right .order-sogo .input-group {
+  margin-left: 0px;
+  width: 30%;
+}
+.ct-main .ct-right .nav-tabs {
+  width: 95%;
+}
+.ct-main .ct-right .order-fail {
+  margin-top: 10px;
+  width: 95%;
+  text-align: center;
+}
+.ct-main .ct-right .orderInfo {
+  display: block;
+}
+.ct-main .ct-right .orderInfo span:nth-child(1) {
+  font-family: "微软雅黑";
+  font-weight: bold;
+  color: #FF0000;
+}
+.ct-main .ct-right .orderInfo .font {
+  font-size: 13px;
+  font-family: "微软雅黑";
+  opacity: 0.7;
+  text-decoration: line-through;
+}
+.ct-main .ct-right .order-table {
+  width: 100%;
+}
+.ct-main .ct-right .order-table table {
+  width: 95%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+.ct-main .ct-right .order-table table tr th {
+  border-bottom: 1px solid #CCCCCC;
+  font-weight: normal;
+  font-family: Arial, 'Microsoft Yahei', '\5FAE\8F6F\96C5\9ED1';
+  border-left: 1px solid #CCCCCC;
+  border-right: 1px solid #CCCCCC;
+  text-align: center;
+}
+.ct-main .ct-right .order-table table tr td {
+  height: 80px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  border-bottom: 1px solid #CCCCCC;
+  border-left: 1px solid #CCCCCC;
+  border-right: 1px solid #CCCCCC;
+  text-align: center;
+}
+.ct-main .ct-right .order-table table th:nth-child(1) {
+  width: 15%;
+}
+.ct-main .ct-right .order-table table th:nth-child(2) {
+  width: 30%;
+}
+.ct-main .ct-right .order-table table th:nth-child(3) {
+  width: 10%;
+}
+.ct-main .ct-right .order-table table th:nth-child(4) {
+  width: 8%;
+}
+.ct-main .ct-right .order-table table th:nth-child(5) {
+  width: 10%;
+}
+.ct-main .ct-right .order-table table th:nth-child(6) {
+  width: 10%;
+}
+.ct-main .ct-right .order-table table th:nth-child(7) {
+  width: 8%;
+}
+.ct-main .ct-right .order-table table th:nth-child(8) {
+  width: 12%;
+}
+.ct-main .ct-right .order-table table td > img {
+  width: 70px;
+  height: 70px;
+}
+.ct-main .ct-right .order-table table td:nth-child(8) > a {
+  display: block;
+  margin-bottom: 5px;
+}
+.ct-main .ct-right .order-table table td:nth-child(8) a:nth-child(1) {
+  color: green;
+}
+.ct-main .ct-right .order-table table td:nth-child(8) a:nth-child(2) {
+  width: 100px;
+  height: 20px;
+  color: #FFFFFF;
+  text-decoration: none;
+  background-color: #ED145B;
+}
+.ct-main .ct-right .order-table table td:nth-child(8) a:nth-child(3) {
+  color: red;
+}
+.ct-main .ct-right #orderModal .modal-body {
+  text-align: center;
+  color: green;
+}
+.ct-main .ct-right #cancelorderModal .modal-body {
+  text-align: center;
+  color: red;
+}
+.ct-main .ct-right #orderresultModal .modal-body {
+  text-align: center;
+}
+.ct-main .ct-right #orderdelModal .modal-body {
+  text-align: center;
+  color: red;
+}
+.ct-main .ct-right .collect-font {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: block;
+  font-family: "微软雅黑";
+  font-size: 18px;
+}
+.ct-main .ct-right .collect-font .collect-font1 {
+  color: #FF0000;
+}
+.ct-main .ct-right .user-collect1 {
+  width: 95%;
+}
+.ct-main .ct-right .user-collect1 .user-collect {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.ct-main .ct-right .user-collect1 .user-collect .user-collect2 {
+  border: 1px solid #CCCCCC;
+}
+.ct-main .ct-right .user-collect1 .user-collect .user-collect2 .user-collect-a img {
+  width: 100%;
+  height: 200px;
+}
+.ct-main .ct-right .user-collect1 .user-collect .user-collect2 .font2 {
+  color: #FF0000;
+  font-size: 18px;
+}
+.ct-main .ct-right .user-collect1 .user-collect .user-collect2 .collect {
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  border: 1px solid #017CFE;
+  text-decoration: none;
+  background-color: #017CFE;
+  color: #FFFFFF;
+}
+.ct-main .ct-right .user-collect1 .user-collect .user-collect2 .collect:hover {
+  background-color: #0295FF;
+}
+.ct-main .ct-right .navs {
+  width: 100%;
+  text-align: center;
+}
+.ct-main .ct-right .evaluate {
+  width: 100%;
+}
+.ct-main .ct-right .evaluate .nav-tabs {
+  margin-top: 20px;
+  width: 95%;
+}
+.ct-main .ct-right .evaluate .evaluate-table table {
+  width: 95%;
+  border-collapse: collapse;
+}
+.ct-main .ct-right .evaluate .evaluate-table table tr th {
+  height: 40px;
+  border-bottom: 1px solid #CCCCCC;
+  font-weight: normal;
+  font-family: Arial, 'Microsoft Yahei', '\5FAE\8F6F\96C5\9ED1';
+  text-align: center;
+}
+.ct-main .ct-right .evaluate .evaluate-table table tr td {
+  border-bottom: 1px solid #CCCCCC;
+  text-align: center;
+}
+.ct-main .ct-right .evaluate .evaluate-table table tr .evaluate-font1 {
+  color: #FF0000;
+}
+.ct-main .ct-right .evaluate .evaluate-table table tr .evaluate-font2 {
+  font-size: 13px;
+  font-family: "微软雅黑";
+  text-align: left;
+}
+.ct-main .ct-right .evaluate .evaluate-table table tr .evaluate-a {
+  display: block;
+  font-size: 10px;
+}
+.ct-main .ct-right .evaluate .evaluate-table table tr .evaluate-a:hover {
+  color: #FF3300;
+}
+.ct-main .ct-right .evaluate .evaluate-table table tr .evaluate-price {
+  color: #FF0000;
+}
+.ct-main .ct-right .evaluate .evaluate-table table tr .evaluate-gf {
+  color: #FF3300;
+}
+.ct-main .ct-right .evaluate .evaluate-table table tr .time {
+  opacity: 0.4;
+}
+.ct-main .ct-right .evaluate .evaluate-table table th:nth-child(1) {
+  width: 10%;
+}
+.ct-main .ct-right .evaluate .evaluate-table table th:nth-child(2) {
+  width: 45%;
+}
+.ct-main .ct-right .evaluate .evaluate-table table th:nth-child(3) {
+  width: 10%;
+}
+.ct-main .ct-right .evaluate .evaluate-table table th:nth-child(4) {
+  width: 25%;
+}
+.ct-main .ct-right .evaluate .evaluate-table table th:nth-child(5) {
+  width: 14%;
+}
+.ct-main .ct-right .evaluate .evaluate-table table td:nth-child(5) a:nth-child(1) {
+  color: red;
+}
+.ct-main .ct-right .my-mess {
+  width: 100%;
+}
+.ct-main .ct-right .my-mess .nav-tabs {
+  margin-top: 20px;
+  width: 95%;
+}
+.ct-main .ct-right .my-mess .mess-table table {
+  width: 95%;
+  border-collapse: collapse;
+}
+.ct-main .ct-right .my-mess .mess-table table tr th {
+  height: 40px;
+  border-bottom: 1px solid #CCCCCC;
+  font-weight: normal;
+  font-family: Arial, 'Microsoft Yahei', '\5FAE\8F6F\96C5\9ED1';
+  text-align: center;
+}
+.ct-main .ct-right .my-mess .mess-table table tr td {
+  height: 45px;
+  border-bottom: 1px solid #CCCCCC;
+  text-align: center;
+}
+.ct-main .ct-right .my-mess .mess-table table tr .font {
+  font-weight: bold;
+}
+.ct-main .ct-right .my-mess .mess-table table tr .green {
+  color: green;
+}
+.ct-main .ct-right .my-mess .mess-table table tr .red {
+  color: red;
+}
+.ct-main .ct-right .my-mess .mess-table table th:nth-child(1) {
+  width: 5%;
+}
+.ct-main .ct-right .my-mess .mess-table table th:nth-child(2) {
+  width: 15%;
+}
+.ct-main .ct-right .my-mess .mess-table table th:nth-child(3) {
+  width: 20%;
+}
+.ct-main .ct-right .my-mess .mess-table table th:nth-child(4) {
+  width: 15%;
+}
+.ct-main .ct-right .fenye {
+  width: 100%;
+  text-align: center;
+}
+.ct-main .message-record {
+  width: 100%;
+}
+.ct-main .message-record .pagination {
+  display: none;
+}
+.ct-main .message-record .message-head {
+  width: 100%;
+  height: 70px;
+  line-height: 70px;
+  border-bottom: 1px solid #CCCCCC;
+}
+.ct-main .message-record .message-head span {
+  font-size: 20px;
+}
+.ct-main .message-record .message-head .message-head-font {
+  color: #FF0000;
+}
+.ct-main .message-record .message-head .btn-success {
+  width: 120px;
+  margin-top: 20px;
+  margin-right: 20px;
+  float: right;
+}
+.ct-main .message-record .admin-mess {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.ct-main .message-record .admin-mess .admin-name {
+  width: 100%;
+  height: 30px;
+  border-bottom: 1px solid #CCCCCC;
+}
+.ct-main .message-record .admin-mess .admin-name .font {
+  font-weight: bold;
+  margin-left: 20px;
+}
+.ct-main .message-record .admin-mess .admin-name .green {
+  margin-left: 5px;
+  margin-right: 5px;
+  color: green;
+}
+.ct-main .message-record .admin-mess .mess-screen {
+  width: 100%;
+  height: 350px;
+  overflow: scroll;
+}
+.ct-main .message-record .admin-mess .admin-mess-div {
+  margin-bottom: 10px;
+}
+.ct-main .message-record .admin-mess .admin-mess-div .red,
+.ct-main .message-record .admin-mess .admin-mess-div .blue {
+  width: 100px;
+  text-align: right;
+  font-weight: bold;
+}
+.ct-main .message-record .admin-mess .admin-mess-div .red {
+  color: red;
+}
+.ct-main .message-record .admin-mess .admin-mess-div .blue {
+  color: blue;
+}
+.ct-main .message-record .admin-mess .admin-mess-div .time {
+  margin-left: 10px;
+  opacity: 0.7;
+}
+.ct-main .message-record .admin-mess .admin-mess-div .mess {
+  margin-left: 100px;
+}
+.ct-main .message-record .mess-submit {
+  margin-top: 30px;
+  width: 95%;
+  height: 200px;
+}
+.ct-main .message-record .mess-submit label {
+  position: absolute;
+}
+.ct-main .message-record .mess-submit .form-control {
+  width: 400px;
+  resize: none;
+  margin-left: 40px;
+}
+.ct-main .message-record .mess-submit .btn {
+  margin-top: 30px;
+}
+.ct-main .after-sales {
+  width: 100%;
+}
+.ct-main .after-sales .nav-tabs {
+  margin-top: 20px;
+  width: 95%;
+}
+.ct-main .after-sales .sales-table table {
+  border-left: 1px solid #CCCCCC;
+  border-right: 1px solid #CCCCCC;
+  border-bottom: 1px solid #CCCCCC;
+  width: 95%;
+  border-collapse: collapse;
+}
+.ct-main .after-sales .sales-table table tr th {
+  height: 40px;
+  border-bottom: 1px solid #CCCCCC;
+  font-weight: normal;
+  font-family: Arial, 'Microsoft Yahei', '\5FAE\8F6F\96C5\9ED1';
+  text-align: center;
+}
+.ct-main .after-sales .sales-table table tr td {
+  height: 30px;
+  border-left: 1px solid #CCCCCC;
+  border-right: 1px solid #CCCCCC;
+  border-bottom: 1px solid #CCCCCC;
+  text-align: center;
+}
+.ct-main .after-sales .sales-table table tr .font {
+  font-weight: bold;
+}
+.ct-main .after-sales .sales-table table tr .green {
+  margin-left: 5px;
+  color: green;
+}
+.ct-main .after-sales .sales-table table tr .red {
+  margin-left: 5px;
+  color: red;
+}
+.ct-main .after-sales .sales-table table th:nth-child(1) {
+  width: 3%;
+}
+.ct-main .after-sales .sales-table table th:nth-child(2) {
+  width: 6%;
+}
+.ct-main .after-sales .sales-table table th:nth-child(3) {
+  width: 15%;
+}
+.ct-main .after-sales .sales-table table th:nth-child(4) {
+  width: 30%;
+}
+.ct-main .after-sales .sales-table table th:nth-child(5) {
+  width: 15%;
+}
+.ct-main .after-sales .sales-table table th:nth-child(6) {
+  width: 10%;
+}
+.ct-main .after-sales .sales-table table th:nth-child(7) {
+  width: 10%;
+}
+.ct-main .fenye {
+  width: 100%;
+  text-align: center;
+}
+.ct-main .allbtn {
+  margin-top: 10px;
+  width: 100%;
+  margin-left: 60px;
+}
+.end {
+  min-width: 1200px;
+  text-align: center;
+  width: 100%;
+}
+.end img {
+  width: 90%;
+  min-width: 1200px;
+}
+.end .endtitle {
+  height: 50px;
+  background-color: #F9F9F9;
+  border-top: #0295FF 1px solid;
+  text-align: center;
+}
+/*# sourceMappingURL=user.css.map */

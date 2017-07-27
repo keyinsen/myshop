@@ -1,0 +1,231 @@
+.ct-main {
+  width: 90%;
+  min-width: 1100px;
+  margin-top: 20px;
+  background-color: #FFFFFF;
+}
+.ct-main .order-state {
+  width: 100%;
+  height: 120px;
+  border: 1px solid #FFCD6C;
+  background-color: #FFF7EB;
+  padding-top: 10px;
+  margin-bottom: 20px;
+}
+.ct-main .order-state .font {
+  margin-left: 15px;
+  font-size: 15px;
+}
+.ct-main .order-state .font1 {
+  font-size: 15px;
+  color: #FF0000;
+  font-family: "微软雅黑";
+}
+.ct-main .order-state .font3 {
+  font-size: 15px;
+  color: green;
+  font-family: "微软雅黑";
+}
+.ct-main .order-state p {
+  margin-top: 10px;
+  margin-left: 15px;
+}
+.ct-main .order-state .order-state-end {
+  margin-top: 10px;
+  height: 40px;
+  line-height: 40px;
+  border-top: 1px dashed #CCCCCC;
+}
+.ct-main .order-state .order-state-end span {
+  margin-left: 10px;
+}
+.ct-main .order-state .order-state-end .font4 {
+  font-weight: bold;
+}
+.ct-main .order-state .order-state-end .time {
+  color: green;
+}
+.ct-main .order-address {
+  width: 100%;
+  border: 1px solid #CCCCCC;
+}
+.ct-main .order-address .order-address-hd {
+  width: 100%;
+  border-bottom: 1px solid #CCCCCC;
+  height: 30px;
+  line-height: 30px;
+  font-weight: bold;
+  background-color: #EFEFEF;
+}
+.ct-main .order-address .order-address-ct {
+  margin-top: 10px;
+  width: 90%;
+}
+.ct-main .order-address .order-address-ct p {
+  font-size: 13px;
+  font-family: "微软雅黑";
+}
+.ct-main .order-wuliu {
+  width: 100%;
+  border-bottom: 1px solid #CCCCCC;
+  border-left: 1px solid #CCCCCC;
+  border-right: 1px solid #CCCCCC;
+}
+.ct-main .order-wuliu .order-wuliu-hd {
+  width: 100%;
+  border-bottom: 1px solid #CCCCCC;
+  height: 30px;
+  line-height: 30px;
+  font-weight: bold;
+  background-color: #EFEFEF;
+}
+.ct-main .order-wuliu .order-wuliu-ct {
+  margin-top: 10px;
+  width: 90%;
+}
+.ct-main .order-wuliu .order-wuliu-ct p {
+  font-size: 13px;
+  font-family: "微软雅黑";
+}
+.ct-main .order-wuliu .order-wuliu-ct p .font {
+  color: green;
+}
+.ct-main .order-detail {
+  width: 100%;
+  border-bottom: 1px solid #CCCCCC;
+  border-left: 1px solid #CCCCCC;
+  border-right: 1px solid #CCCCCC;
+}
+.ct-main .order-detail .order-detail-hd {
+  width: 100%;
+  border-bottom: 1px solid #CCCCCC;
+  height: 30px;
+  line-height: 30px;
+  font-weight: bold;
+  background-color: #EFEFEF;
+}
+.ct-main .order-detail .order-detail-ct table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.ct-main .order-detail .order-detail-ct table th {
+  height: 30px;
+  line-height: 30px;
+  font-size: 15px;
+  border-bottom: 1px solid #CCCCCC;
+  text-align: center;
+}
+.ct-main .order-detail .order-detail-ct table td {
+  border-bottom: 1px solid #CCCCCC;
+  text-align: center;
+}
+.ct-main .order-detail .order-detail-ct table td img {
+  width: 70px;
+  height: 70px;
+}
+.ct-main .order-detail .order-detail-ct table td p {
+  opacity: 0.7;
+  font-size: 13px;
+}
+.ct-main .order-detail .order-detail-ct table th:nth-child(1) {
+  width: 15%;
+}
+.ct-main .order-detail .order-detail-ct table th:nth-child(2) {
+  width: 45%;
+}
+.ct-main .order-detail .order-detail-ct table th:nth-child(3) {
+  width: 10%;
+}
+.ct-main .order-detail .order-detail-ct table td:nth-child(3) {
+  font-family: "微软雅黑";
+  color: #FF0000;
+  font-weight: bold;
+}
+.ct-main .order-detail .order-detail-ct table th:nth-child(4) {
+  width: 10%;
+}
+.ct-main .order-detail .order-detail-ct table th:nth-child(5) {
+  width: 10%;
+}
+.ct-main .order-detail .order-detail-ct table td:nth-child(5) {
+  font-family: "微软雅黑";
+  opacity: 0.8;
+}
+.ct-main .order-detail .order-detail-ct table th:nth-child(6) {
+  width: 15%;
+}
+.ct-main .order-detail .order-detail-ct table td:nth-child(6) {
+  font-family: "微软雅黑";
+  color: #FF0000;
+  font-weight: bold;
+}
+.ct-main .order-detail .order-detail-ct .order-detail-ct-end {
+  width: 100%;
+  height: 150px;
+}
+.ct-main .order-detail .order-detail-ct .order-detail-ct-end .left {
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 48%;
+  text-align: left;
+  display: inline-block;
+}
+.ct-main .order-detail .order-detail-ct .order-detail-ct-end .left span {
+  width: 100px;
+  font-family: "微软雅黑";
+}
+.ct-main .order-detail .order-detail-ct .order-detail-ct-end .left span:nth-child(1) {
+  font-family: "微软雅黑";
+  font-weight: bold;
+}
+.ct-main .order-detail .order-detail-ct .order-detail-ct-end .right {
+  margin-top: 10px;
+  float: right;
+  display: inline-block;
+  width: 50%;
+  text-align: right;
+}
+.ct-main .order-detail .order-detail-ct .order-detail-ct-end .right p .font {
+  text-align: right;
+  font-family: "微软雅黑";
+  font-size: 17px;
+}
+.ct-main .order-detail .order-detail-ct .order-detail-ct-end .right p .font1 {
+  display: inline-block;
+  width: 100px;
+  text-align: left;
+  color: #FF0000;
+  font-weight: bold;
+  font-family: "微软雅黑";
+}
+.ct-main .order-detail .order-detail-ct .order-detail-ct-end .right .bold span {
+  font-weight: bold;
+}
+.ct-main .order-detail .order-detail-ct .order-detail-ct-end .right .bold .font2 {
+  text-align: left;
+  color: #FF0000;
+  display: inline-block;
+  width: 100px;
+  font-family: "微软雅黑";
+  font-size: 20px;
+}
+.end {
+  min-width: 1200px;
+  text-align: center;
+  width: 100%;
+}
+.end .img {
+  width: 100%;
+  background-color: #FFFFFF;
+}
+.end .img img {
+  width: 85%;
+  min-width: 1200px;
+}
+.end .endtitle {
+  height: 50px;
+  background-color: #F9F9F9;
+  border-top: #0295FF 1px solid;
+  text-align: center;
+}
+/*# sourceMappingURL=orderDetail.css.map */

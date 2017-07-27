@@ -1,0 +1,315 @@
+.content-main {
+  width: 90%;
+  
+  padding-top: 30px;
+  min-width: 1200px;
+  min-height: 700px;
+}
+.content-main .content-left .Spinnes,
+.content-main .content-left .Spinnes1 {
+  display: inline-block;
+  color: #000000;
+  font-family: "微软雅黑";
+}
+.content-main .content-left .Spinnes:hover,
+.content-main .content-left .Spinnes1:hover {
+  color: #FF3300;
+}
+.content-main .content-left .Spinnes {
+  width: 100%;
+  margin-top: 5px;
+}
+.content-main .content-left .Spinnes1 {
+  width: 50%;
+  float: left;
+  margin-top: 5px;
+}
+.content-main .content-left .ct-left-bot {
+  width: 100%;
+}
+.content-main .content-left .ct-left-bot .hot {
+  display: inline-block;
+  width: 100%;
+  height: 20px;
+  border-bottom: 1px solid #FF3300;
+}
+.content-main .content-left .ct-left-bot .shoplist {
+  margin-top: 10px;
+  padding: 5px;
+  display: block;
+  border: 1px solid #CCCCCC;
+}
+.content-main .content-left .ct-left-bot .shoplist .a {
+  width: 100%;
+}
+.content-main .content-left .ct-left-bot .shoplist .a > img {
+  width: 100%;
+}
+.content-main .content-left .ct-left-bot .font1 {
+  text-decoration: none;
+  color: #000000;
+}
+.content-main .content-left .ct-left-bot .font1:hover {
+  color: #FF5B01;
+}
+.content-main .content-left .ct-left-bot .font2 {
+  font-size: 13px;
+  font-weight: bold;
+  color: #999999;
+}
+.content-main .content-left .ct-left-bot .font2:hover {
+  color: #FF0000;
+}
+.content-main .content-left .ct-left-bot .font3 {
+  font-size: 14px;
+  color: #999999;
+  font-family: "Microsoft Yahei", simsun, Arial, Helvetica, sans-serif;
+  text-decoration: line-through;
+}
+.content-main .content-left .ct-left-bot .font4 {
+  font-weight: bold;
+  color: #FF0000;
+  font-size: 17px;
+  font-family: "Microsoft Yahei", simsun, Arial, Helvetica, sans-serif;
+}
+.content-main .content-left .ct-left-bot .font5 {
+  font-family: "Microsoft Yahei", simsun, Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  color: #FF0000;
+}
+.content-main .content-left .ct-left-bot .cart {
+  width: 100%;
+  text-align: center;
+  height: 30px;
+  line-height: 30px;
+  display: inline-block;
+  background-color: #40C19D;
+  border: 1px solid #40C19D;
+  color: #FFFFFF;
+}
+.content-main .content-left .ct-left-bot .cart:hover {
+  background-color: #017CFE;
+}
+.content-main .content-left .ct-left-bot .collect {
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  display: inline-block;
+  background-color: #FCFCFC;
+  color: #666666;
+  border: 1px solid #CCCCCC;
+  text-decoration: none;
+}
+.content-main .content-left .ct-left-bot .collect:hover {
+  background-color: #FF0000;
+}
+.content-main .container-fluid {
+  padding: 0px;
+}
+
+.content-main .content-right .ct-right-up .ct-head1 {
+	line-height: 50px;
+  height: 40px;
+  border-top:1px solid #CCCCCC;
+  border-bottom: 1px solid #CCCCCC;
+  background-color: #F7F7F7;
+}
+.content-main .content-right .ct-right-up .ct-head1 > .ct-head1-span {
+  font-size: 15px;
+  font-weight: bold;
+  margin-right: 5px;
+  color: #FF0000;
+}
+.content-main .content-right .ct-right-up .ct-head1 > .font1{
+	color: #666666;
+	 font-size: 15px;
+	 font-weight: bold;
+	 margin-right: 10px;
+}
+.content-main .content-right .ct-right-up .ct-head1 > .font{
+	color: #FF0000;
+	 font-size: 13px;
+	 font-weight: bold;
+	 margin-right: 5px;
+}
+.content-main .content-right .ct-right-up .ct-head2 {
+	line-height: 40px;
+	font-weight: bold;
+  height: 30px;
+  font-family: "微软雅黑";
+  background-color: #FAFAFA;
+  border-bottom: 1px #CCCCCC solid;
+}
+.content-main .content-right .ct-right-up .ct-head2 .red{
+	margin-left: 10px;
+	color: #FF0000;
+}
+.content-main .content-right .ct-right-up .ct-head2 a{
+	text-decoration: none;
+	margin-left: 10px;
+	border: 1px solid #FF0000;
+}
+.content-main .content-right .ct-right-up .ct-ul {
+  margin-top: 10px;
+  list-style: none;
+  height: 30px;
+  border-bottom: 1px #CCCCCC solid;
+  line-height: 30px;
+  font-family: "Microsoft Yahei", simsun, Arial, Helvetica, sans-serif;
+}
+.content-main .content-right .ct-right-up .ct-ul li {
+  margin-left: 10px;
+  text-align: center;
+  margin-right: 10px;
+  float: left;
+}
+.content-main .content-right .ct-right-up .ct-ul li a {
+  text-decoration: none;
+  display: inline-block;
+  color: #005AA0;
+  border-radius: 3px;
+}
+.content-main .content-right .ct-right-up .ct-ul .red{
+  background-color: #3AB1FF;
+  height: 20px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+.content-main .content-right .ct-right-up .ct-ul .ct-text {
+  width: 45px;
+  height: 20px;
+}
+.content-main .content-right .ct-right-up .ct-ul .ct-btn {
+  width: 45px;
+  height: 25px;
+  line-height: 25px;
+}
+.content-main .content-right .ct-rt-bom-head {
+  margin-top: 10px;
+  border: 1px solid #CCCCCC;
+  background-color: #F1F1F1;
+  height: 40px;
+  line-height: 40px;
+  
+}
+.content-main .content-right .ct-rt-bom-head .ct-rt-bom-head-a,
+.content-main .content-right .ct-rt-bom-head .ct-rt-bom-head-a1 {
+	float: left;
+  text-align: center;
+  font-family: tahoma, arial, '\5fae\8f6f\96c5\9ed1', 'Hiragino Sans GB', sans-serif !important;
+  display: inline-block;
+  margin-top: 7px;
+  height: 25px;
+  line-height: 25px;
+  color: #000000;
+  text-decoration: none;
+  background-color: #FFFFFF;
+}
+.content-main .content-right .ct-rt-bom-head .ct-rt-bom-head-a {
+	border-right: 1px solid #CCCCCC;
+	border-top: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+  width: 80px;
+}
+.content-main .content-right .ct-rt-bom-head .ct-rt-bom-head-a1 {
+	margin-left: 5px;
+	border: 1px solid #CCCCCC;
+  width: 80px;
+}
+.content-main .content-right .ct-rt-bom-head .red {
+	background-color: #E4393C;
+}
+.content-main .content-right .ct-rt-bom-shoplist {
+  padding: 5px;
+  margin-top: 10px;
+  display: block;
+}
+.content-main .shop {
+  padding: 0px;
+  list-style: none;
+}
+.content-main .shop .shoplist {
+  margin-top: 10px;
+  padding: 5px;
+  display: block;
+}
+.content-main .shop .shoplist .price-collect{
+    padding: 0px;
+    text-align: left;
+}
+.content-main .shop .shoplist:hover {
+  padding: 4px;
+  border: 1px solid #CCCCCC;
+  box-shadow: 0px 0px 30px #F9F9F9;
+}
+.content-main .shop .shoplist .font1 {
+    display: inline-block;
+  text-decoration: none;
+  color: #000000;
+  margin-top: 10px;
+  font-size: 13px;
+  height: 60px;
+  
+}
+.content-main .shop .font1:hover {
+  color: #FF5B01;
+}
+.content-main .shop .font2 {
+  font-size: 13px;
+  font-weight: bold;
+  color: #999999;
+}
+.content-main .shop .font2:hover {
+  color: #FF0000;
+}
+.content-main .shop .font3 {
+  font-size: 14px;
+  color: #999999;
+  font-family: "Microsoft Yahei", simsun, Arial, Helvetica, sans-serif;
+  text-decoration: line-through;
+}
+.content-main .shop .font4 {
+  font-weight: bold;
+  color: #FF0000;
+  font-size: 17px;
+  font-family: "Microsoft Yahei", simsun, Arial, Helvetica, sans-serif;
+}
+.content-main .shop .font5 {
+  font-family: "Microsoft Yahei", simsun, Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  color: #FF0000;
+}
+.content-main .shop .cart {
+  height: 50px;
+  padding: 0px;
+  line-height: 50px;
+  border-radius: 3px;
+  position: absolute;
+  bottom: 5px;
+  right: 1px;
+  display: inline-block;
+  background-color: #40C19D;
+  border: 1px solid #40C19D;
+  color: #FFFFFF;
+  text-align: center;
+}
+.content-main .shop .cart:hover {
+  background-color: #017CFE;
+}
+.content-main .content-right .collect {
+  width:50%;
+  float: right;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  display: inline-block;
+  background-color: #FCFCFC;
+  color: #666666;
+ 
+ border-top: 1px solid #CCCCCC;
+  text-decoration: none;
+}
+.content-main .content-right .collect:hover {
+  background-color: #CCCCCC;
+}

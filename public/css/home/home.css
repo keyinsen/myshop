@@ -1,0 +1,35 @@
+.modal-body {
+  min-height: 200px;
+  height: 200px;
+}
+.modal-body .form {
+  text-align: center;
+}
+.modal-body .form .form-group {
+  height: 50px;
+  width: 70%;
+  margin: 0px;
+  margin-left: 90px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+.modal-body .form .form-group label {
+  margin-top: 8px;
+  padding: 0px;
+  text-align: right;
+}
+.modal-body .form .error {
+  display: block;
+  height: 20px;
+  width: 100%;
+  text-align: center;
+  font-size: 17px;
+  color: #FF0000;
+}
+.modal-footer {
+  text-align: center;
+}
+.modal-footer .btn {
+  width: 100px;
+}
+/*# sourceMappingURL=home.css.map */

@@ -1,0 +1,273 @@
+.ct-main {
+  width: 90%;
+  min-width: 1100px;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  background-color: #FFFFFF;
+}
+.ct-main .address {
+  width: 100%;
+}
+.ct-main .address .address-head {
+  margin-top: 20px;
+  height: 30px;
+  line-height: 30px;
+  border-bottom: 1px solid #CCCCCC;
+}
+.ct-main .address .address-head span {
+  font-weight: bold;
+  font-size: 20px;
+}
+.ct-main .address .address-head a {
+  margin-right: 10px;
+  float: right;
+}
+.ct-main .address .notaddress {
+  width: 90%;
+  text-align: center;
+  display: block;
+}
+.ct-main .address .btn-success {
+  margin-top: 10px;
+  margin-left: 5%;
+}
+.ct-main .address .address-ct {
+  margin-top: 5px;
+  width: 90%;
+  line-height: 30px;
+  height: 30px;
+  border: 1px solid #CCCCCC;
+  cursor: pointer;
+}
+.ct-main .address .address-ct span {
+  margin-right: 2px;
+}
+.ct-main .address .address-ct:hover {
+  background-color: #FFF0E8;
+}
+.ct-main .address .address-ct a {
+  visibility: hidden;
+}
+.ct-main .goodstime {
+  margin-top: 40px;
+  width: 100%;
+}
+.ct-main .goodstime .goodstime-head {
+  width: 100%;
+  border-bottom: 1px solid #CCCCCC;
+  height: 30px;
+  line-height: 30px;
+}
+.ct-main .goodstime .goodstime-head span {
+  font-weight: bold;
+  font-size: 20px;
+}
+.ct-main .goodstime .goodstime-ct {
+  margin-top: 20px;
+}
+.ct-main .goodstime .goodstime-ct span {
+  color: #FF0000;
+}
+.ct-main .goodsinfo {
+  margin-top: 40px;
+  width: 100%;
+}
+.ct-main .goodsinfo .goodsinfo-head {
+  width: 100%;
+  border-bottom: 1px solid #CCCCCC;
+  height: 30px;
+  line-height: 30px;
+}
+.ct-main .goodsinfo .goodsinfo-head span {
+  font-weight: bold;
+  font-size: 20px;
+}
+.ct-main .goodsinfo .goods-title {
+  margin-top: 20px;
+  width: 95%;
+  height: 30px;
+  line-height: 30px;
+  border: 1px solid #CCCCCC;
+  background-color: #FAFAFA;
+}
+.ct-main .goodsinfo .goods-title div {
+  text-align: center;
+  display: inline-block;
+  font-family: Tahoma, Geneva, sans-serif;
+}
+.ct-main .goodsinfo .goods-title div:nth-child(1) {
+  width: 15%;
+}
+.ct-main .goodsinfo .goods-title div:nth-child(2) {
+  width: 45%;
+}
+.ct-main .goodsinfo .goods-title div:nth-child(3) {
+  width: 10%;
+}
+.ct-main .goodsinfo .goods-title div:nth-child(4) {
+  width: 10%;
+}
+.ct-main .goodsinfo .goods-title div:nth-child(5) {
+  width: 14%;
+}
+.ct-main .goodsinfo .goods-ct {
+  width: 95%;
+  height: 70px;
+  border-left: 1px solid #CCCCCC;
+  border-right: 1px solid #CCCCCC;
+  border-bottom: 1px dashed #CCCCCC;
+}
+.ct-main .goodsinfo .goods-ct .img {
+  display: inline-block;
+  width: 15%;
+  text-align: center;
+}
+.ct-main .goodsinfo .goods-ct .img img {
+  width: 70px;
+  height: 50px;
+}
+.ct-main .goodsinfo .goods-ct .a-span {
+  text-align: center;
+  width: 45%;
+  display: inline-block;
+}
+.ct-main .goodsinfo .goods-ct .a-span a {
+  display: block;
+  color: #000000;
+  font-size: 13px;
+}
+.ct-main .goodsinfo .goods-ct .a-span a:hover {
+  color: #FF5B01;
+}
+.ct-main .goodsinfo .goods-ct .a-span span {
+  margin-left: 5px;
+  opacity: 0.5;
+  font-size: 13px;
+}
+.ct-main .goodsinfo .goods-ct .num {
+  text-align: center;
+  display: inline-block;
+  width: 10%;
+}
+.ct-main .goodsinfo .goods-ct .price {
+  text-align: center;
+  display: inline-block;
+  width: 10%;
+  font-family: "微软雅黑";
+}
+.ct-main .goodsinfo .goods-ct .price span {
+  display: block;
+  padding-top: 15px;
+  height: 20px;
+  color: #FF0000;
+  font-weight: bold;
+}
+.ct-main .goodsinfo .goods-ct .price p {
+  display: inline-block;
+  text-decoration: line-through;
+  font-size: 13px;
+  padding-top: 10px;
+  height: 20px;
+  opacity: 0.7;
+}
+.ct-main .goodsinfo .goods-ct .zprice {
+  text-align: center;
+  display: inline-block;
+  width: 14%;
+  font-weight: bold;
+  color: #FF0000;
+  font-family: "微软雅黑";
+}
+.ct-main .goodsinfo .goods-ct:hover {
+  background-color: #FAFAFA;
+}
+.ct-main .goodsinfo .goodsend {
+  height: 40px;
+  width: 95%;
+  line-height: 40px;
+  border-left: 1px solid #CCCCCC;
+  border-bottom: 1px solid #CCCCCC;
+  border-right: 1px solid #CCCCCC;
+}
+.ct-main .goodsinfo .goodsend input {
+  height: 30px;
+  width: 430px;
+}
+.ct-main .goodsinfo .goodsend .price {
+  float: right;
+  text-align: center;
+  font-family: "微软雅黑";
+  width: 24%;
+}
+.ct-main .goodsinfo .goodsend .pricename {
+  text-align: right;
+  float: right;
+  width: 10%;
+}
+.goodssubmit {
+  margin-top: 20px;
+  width: 90%;
+  height: 70px;
+  background-color: #FFFFFF;
+}
+.goodssubmit .text {
+  width: 30%;
+  margin-right: 0px;
+}
+.goodssubmit .text .text-left {
+  display: inline-block;
+  width: 60%;
+  text-align: right;
+}
+.goodssubmit .text .text-left .font {
+  font-size: 13px;
+}
+.goodssubmit .text .text-left .font1 {
+  font-size: 13px;
+  color: #FF0000;
+}
+.goodssubmit .text .text-right {
+  display: inline-block;
+  width: 30%;
+  text-align: left;
+}
+.goodssubmit .text .text-right .font3 {
+  margin-left: 20px;
+  font-size: 13px;
+  color: #ED415B;
+  font-family: "微软雅黑";
+}
+.goodssubmit .text .text-right .font4 {
+  margin-left: 20px;
+  font-size: 25px;
+  font-weight: bold;
+  color: #ED415B;
+  font-family: "微软雅黑";
+}
+.goodssubmit-end {
+  width: 90%;
+  height: 40px;
+  line-height: 40px;
+  background-color: #FAFAFA;
+  margin-bottom: 20px;
+}
+.goodssubmit-end .btns {
+  width: 10%;
+  float: right;
+}
+.goodssubmit-end .btns .btn-success {
+  width: 100px;
+  margin-left: 10px;
+}
+.goodssubmit-end a {
+  font-size: 18px;
+  color: #ED415B;
+}
+#myorderModal .modal-body{
+	 
+		text-align: center;
+		color: green;
+	
+}
+
+/*# sourceMappingURL=order.css.map */

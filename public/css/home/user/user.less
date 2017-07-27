@@ -1,0 +1,1121 @@
+*{
+    margin: 0px auto;
+    padding: 0px;
+  
+}
+body{
+
+    background-color: #F1F1F1;
+}
+.red{
+    color: #FF0000;
+    
+    font-family: "微软雅黑";
+}
+.head {
+  background-color: #F8F8F8;
+  min-width: 1200px;
+  width: 100%;
+  height: 35px;
+  border-bottom: 1px #CCCCCC solid;
+}
+.head .head-left {
+  display: inline-block;
+  float: left;
+  margin-left: 10px;
+}
+.head .head-left > span {
+  margin-left: 2px;
+}
+.head .head-left > a {
+  margin-left: 2px;
+  color: #FF0000;
+}
+.head .head-left .btn-default {
+  font-family: "微软雅黑";
+  background-color: #F8F8F8;
+  border: 0px;
+  outline: none;
+}
+.head .head-right {
+  padding: 0px;
+  height: 35px;
+  float: right;
+  list-style: none;
+  margin: 0px;
+  line-height: 35px;
+}
+.head .head-right li {
+  height: 35px;
+  float: right;
+  padding: 0px;
+  margin-right: 60px;
+}
+.head .head-right li > a {
+  color: #6C6C6C;
+  font-family: "微软雅黑";
+  font-size: 14px;
+  padding: 0px;
+  text-decoration: none; 
+}
+.head .head-right li > a:hover {
+  color: #FF0000;
+}
+.head .head-right .shopli:hover {
+  background-color: #FFFFFF;
+}
+.head .head-right .shopli:hover .shop {
+  display: block;
+  border-left: 1px solid #FCF8E3;
+  border-right: 1px solid #FCF8E3;
+  border-bottom: 1px solid #FCF8E3;
+  box-shadow: 0px 0px 5px #CCCCCC;
+  background-color: #FFFFFF;
+}
+.head .head-right .shop {
+  top: 35px;
+  position: absolute;
+  z-index: 10;
+  display: none;
+  list-style: none;
+  width: 320px;
+  background-color: #FFFFFF;
+}
+.head .head-right .shop >table{
+    width: 100%;
+    margin-bottom: 5px;
+    table-layout: fixed;
+    tr{
+        &:hover{
+            background-color: #CCCCCC;
+        }
+        width:100%;
+        height: 60px;
+        line-height: 60px;
+        border-bottom: 1px dashed #CCCCCC;
+        td{
+            text-overflow: ellipsis; 
+            overflow:hidden;
+            text-align: center;
+            font-size: 8px;
+            font-family: "微软雅黑";
+            img{
+                display: inline-block;
+                width: 30px;
+                height: 40px;
+            }
+            .remove{
+                display: inline-block;
+                border-radius: 3px;
+                width: 30px;
+                text-align: center;
+                height: 25px;
+                color: #FFFFFF;
+                line-height: 25px;
+                text-decoration: none;
+                background-color: #FF0000;
+            }
+        }
+        td:nth-child(1){
+            width: 1%;
+        }
+        td:nth-child(2){
+            width: 15%;
+        }
+        td:nth-child(3){
+            width: 40%;
+        }
+        td:nth-child(4){
+            width: 15%;
+            color: #FF0000;
+            font-weight: bold;
+        }
+        td:nth-child(5){
+            width: 13%;
+        }
+        td:nth-child(6){
+            width: 14%;
+        }
+    }
+}
+
+
+.head .head-right .shop .cart-sum {
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+  .span4{
+      font-size: 8px;
+  }
+}
+.head .head-right .shop .shop-cart {
+  display: inline-block;
+  width: 50%;
+  height: 30px;
+  float: right;
+  background-color: #FF7A64;
+  line-height: 30px;
+  text-decoration: none;
+  text-align: center;
+  color: #FFFFFF;
+  font-family: "微软雅黑";
+}
+.head .head-right .shop .shop-cart:hover {
+  background-color: #ED145B;
+}
+.ct-top{
+    min-width: 1200px;
+    width: 100%;
+    background: #FFFFFF; 
+    padding: 0px; 
+    .ct-top1{
+    
+    width: 90%;
+    height: 100px;
+    
+    line-height: 100px;
+    h2{
+                text-align: center;
+                display:inline-block;
+                font-family: "微软雅黑";
+                color:#FF3300;
+                margin: 0px;
+            }
+           
+            .form-control{
+        margin-top: 33px;
+         border-radius:0px;
+         box-shadow: none;
+         border: 1px solid #FF5B01;
+    }
+    .btn-default{
+       background-color: #FF5B01;
+        border-radius:0px;
+        outline: 0;
+        width: 50px;
+       border: 1px solid #FF5B01;
+       &:active{
+           background-color:#FF5B01;
+           outline: 0;
+           border: none;
+       }
+    }
+    }
+}
+.ct-head{ //ct-head----------------------------------------
+min-width: 1200px;
+    width: 100%;
+   // border: 1px solid #FF0000;
+    height: 35px;
+    line-height: 35px;
+    background-color: #1C1C1C;
+    box-shadow:0px 2px #9E9A96 ;      
+    .ct-ul{
+        width: 400px;
+        min-width: 1100px;
+        margin-left: 70px;
+        display: inline-block;
+        list-style: none;
+        .li{
+               margin-right: 20px;
+          >a{           
+                width: 100px;
+                text-align: center;
+                display: inline-block;
+                text-decoration: none;
+                color: #FFFFFF;
+                font-size: 20px;
+                border-radius: 4px;
+                &:hover{
+                    background-color: #FF0000;
+                }
+            }
+            }
+        li{
+            float: left;
+            text-align: center;
+           
+            
+//          input{
+//              width: 250px;
+//              height: 30px;
+//               line-height: 0px;
+//          }
+//          
+//          .ct-ulli-a{
+//              display: inline-block;
+//              height: 30px;
+//              background-color: #F5F5F5;
+//              line-height: 30px;
+//              color: #FF3300;
+//              text-align: center;
+//              width: 40px;
+//              text-decoration: none;
+//              outline: none;
+//          }
+        }
+    }
+
+       
+
+
+    
+}//ct-head----------------------------------------
+.container-fluid{
+    padding: 0px;
+}
+.ct-main{//ct-main-----------------------------------------
+min-width: 1200px;
+    margin-top: 10px;
+    width: 90%;
+   background-color: #FFFFFF;
+    .ct-left{
+      //  width: 20%;
+        //height: 20px;
+        padding: 0px;
+        text-align: center;
+      //  border: 1px solid #FF0000;
+        .touxiang{
+             border: 1px solid #CCCCCC;     
+            >img{
+            margin-top: 20px;
+            width: 100px;
+            height: 100px;
+            border: 1px solid #CCCCCC;    
+            }
+            padding-bottom:10px;
+        }
+        .ct-left-meun{
+            text-align: left;
+            background-color: #EDE7E1;
+          border-right: 1px solid #CCCCCC;
+            border-left: 1px solid #CCCCCC;
+            font-weight: bold;
+        }
+        ul{
+            width:95%;
+            background-color: #F8F6F4;
+            list-style: none;
+            margin-bottom: 0px;
+            li{
+               width: 100%;
+               height: 30px;
+               line-height: 30px;
+               border-bottom: 1px solid #CCCCCC;
+               border-left: 1px solid #CCCCCC;
+               border-right: 1px solid #CCCCCC;
+               &:hover{
+                   background-color: #CCCCCC;
+               }
+               a{
+                   text-decoration: none;
+                   color: #6C6C6C;
+               } 
+            }
+        }
+    }
+    .ct-right{//ct-right--------------------------------------
+       // width: 80%;
+       // height: 20px;
+       padding: 0px;
+       // border: 1px solid #FF0000;
+        .ct-right-head{
+            padding-top: 20px;
+            height: 50px;
+            border-bottom:1px solid  #CCCCCC;
+            font-size: 20px;
+            
+        }
+        //个人信息  样式-------------------------------------
+        .touxiang1{//头像
+            width: 140px;
+            height: 140px;
+            >img{
+            width: 140px;
+            height: 140px;
+            }
+           right:50px;
+           border: 1px solid #CCCCCC;
+           position: absolute;
+           text-align: center;
+           .btn-touxiang{//头像按钮
+               margin-top: 10px;
+               display: block;
+               text-align: center;
+               line-height: 30px;
+               width: 80px;
+               height: 30px;
+               background-color:peachpuff;
+               text-decoration: none;
+           }
+        }
+        .xing{//*样式
+            color: #FF0000;
+        }
+        .perinfo{
+            margin-top: 10px;
+            width: 85%;
+             height: 40px;
+             //border: 1px solid #FF0000;
+             input{
+                 height: 30px;
+             } 
+             >label{
+                 width: 100px;
+                 font-family: Arial,'Microsoft Yahei','\5FAE\8F6F\96C5\9ED1';
+                text-align: right;
+                 margin-right: 10px;
+                 
+             }
+             >select{
+                 text-align: center;
+             }
+             span{
+                 
+                 color: #FF0000;
+             } 
+            }
+            .perinfo-mess{//个人信息里面的文本域
+            margin-top: 10px;
+            width: 85%;
+                height:100px ; 
+                >label{
+                 width: 100px;
+                 font-family: Arial,'Microsoft Yahei','\5FAE\8F6F\96C5\9ED1';
+                text-align: right;
+                 margin-right: 10px;
+                 
+             }
+                >textarea{
+                 resize: none;
+                } 
+                .form-control{
+                 //display: inline-block;
+                 margin-top: -20px;
+                 margin-left: 110px;
+                 width: 200px;
+             }
+             .btn{//确认按钮
+                 margin-left: 110px;
+             }
+            }
+            
+            #uinfoModal2 .modal-body {
+          text-align: center;
+          color: green;
+            }
+       //个人信息  样式-------------------------------------
+       
+       //密码修改  样式-------------------------------------
+       .usersafe{
+           width: 70%;
+         //  border: 1px solid #FF0000;
+           margin-top: 10px;
+           p{
+               margin-left: 120px;
+               color: #999999;
+           }
+           label{
+               width: 100px;
+               margin-right: 10px;
+               text-align: right;
+           }
+           input{
+              display: inline;
+               width: 200px;
+           }
+           .xing{//*样式
+            color: #FF0000;
+            }
+            span{
+                color: #FF0000;
+            }
+            .que{
+                display: inline-block;
+                width: 200px;
+                height: 30px;
+                text-decoration: underline;
+            }
+            .Quetext{
+                margin-left: 110px;
+            }
+            .voidimg{
+                display: inline-block;
+                width: 100px;
+                height: 30px;
+                border: 1px solid #CCCCCC;
+            }
+       }
+       .safe-btn{
+           width: 50%;
+           text-align: center;
+       }
+       .usersafe-text{
+           padding-left:110px ;
+          width: 70%;
+     
+          label{
+               width: 100px;
+               margin-right: 10px;
+               text-align: right;
+           }
+           p{
+               margin-left: 5px;
+               color: #999999;
+           }
+           input{
+              display: inline;
+               width: 200px;
+           }
+           .xing{//*样式
+            color: #FF0000;
+            }
+            span{
+                color: #FF0000;
+            } 
+     } //密码修改---------------------------------
+     //账户余额样式-------------------------------------
+     .menory-font1{
+         font-size: 20px;
+     }
+     .menory-font2{
+         font-family: "微软雅黑";
+         font-weight: bold;
+         color: #ED145B;
+     }
+     //账户余额样式---------------------------------------
+     //收货地址管理-------------------------------------------------
+     .address-font{
+         margin-top: 10px;
+         margin-left: 20px;
+         margin-bottom: 20px;
+         display: block;
+         font-size: 17px;
+         font-weight: bold;
+         font-family: "微软雅黑";
+         color: #000000;
+     }
+     .address-div{
+         margin-bottom: 10px;
+         //  border: 1px solid #FF0000;
+           label{
+               width: 100px;
+               margin-right: 10px;
+               font-family: "微软雅黑";
+               font-weight: 100;
+               text-align: right;
+           }
+           input{
+              display: inline;
+               width: 200px;
+           }
+           .xing{//*样式
+            color: #FF0000;
+            }
+            span{
+                color: #FF0000;
+            }
+            .address-list1{
+                display: inline-block;
+                width: 150px;
+            }
+            .address-list2{
+                display: inline-block;
+                width: 100px;
+            }
+            .address-list3{
+                display: inline-block;
+                width: 100px;
+            }
+            .address-detail-t{
+                position: absolute;
+                margin-top: 0px;
+            }
+            .address-detail{
+                margin-left: 115px;
+                margin-top: 10px;
+                display: inline-block;
+                height: 50px;
+                resize: none;
+                 width: 600px;
+            }
+            p{
+                margin-left: 10px;
+            }
+            }
+        .address-table{
+            width: 100%;
+            table{
+                table-layout:fixed;
+                width: 90%;
+                border-collapse:collapse;
+                tr{
+                    th{
+                        border: 1px solid #CCCCCC;
+                        text-align: center;
+                    }
+                    td{
+                        font-size: 12px;
+                        height: 40px;
+                        text-overflow: ellipsis; 
+                        overflow:hidden;
+                        border: 1px solid #CCCCCC;
+                        text-align: center;
+                        a:nth-child(1){
+                            
+                            color: green;
+                        }
+                        a:nth-child(2){
+                            
+                            color: red;
+                        }
+                    }  
+                    
+                }
+                th:nth-child(1){
+                    width: 1%;
+                }
+                th:nth-child(2){
+                    width: 15%;
+                    
+                }
+                th:nth-child(3){
+                    width: 53%; 
+                }
+                th:nth-child(4){
+                   width: 12%;
+                }
+                th:nth-child(5){
+                    width: 10%;
+                }
+                th:nth-child(6){
+                    width: 12%;
+                }
+                
+                
+                
+            }
+          
+     }
+      #MyaddressModal .modal-body {
+          text-align: center;
+          color: red;
+            }
+     //收货地址管理-------------------------------------------------
+     
+     //我的订单-------------------------------------------
+     .order-sogo{
+         margin-top: 10px;
+         margin-bottom: 10px;
+         margin-left: 10px;
+         width: 100%;
+        .input-group{
+            margin-left: 0px;
+           width: 30%;
+        } 
+     }
+     .nav-tabs{
+         width: 95%;
+     }
+     .order-fail{
+         margin-top: 10px;
+         width: 95%;
+         text-align: center;
+     }
+     .orderInfo{
+         display: block;
+         span:nth-child(1){
+             font-family: "微软雅黑";
+             font-weight: bold;
+             color: #FF0000;
+         }
+         .font{
+             font-size: 13px;
+             font-family: "微软雅黑";
+             opacity: 0.7;
+             text-decoration: line-through;
+         }
+     }
+     .order-table{
+         width: 100%;
+            table{
+                width: 95%;
+                border-collapse:collapse;
+                table-layout: fixed;
+                tr{
+                    th{
+                        border-bottom: 1px solid #CCCCCC;
+                        font-weight: normal;
+                       font-family:  Arial,'Microsoft Yahei','\5FAE\8F6F\96C5\9ED1';;
+                        border-left: 1px solid #CCCCCC;
+                        border-right: 1px solid #CCCCCC;
+                        text-align: center;
+                    }
+                    td{
+                        height: 80px;
+                        text-overflow: ellipsis; 
+                        overflow: hidden;
+                        border-bottom: 1px solid #CCCCCC;
+                        border-left: 1px solid #CCCCCC;
+                        border-right: 1px solid #CCCCCC;
+                        text-align: center;                        
+                    }  
+                    
+                }
+                th:nth-child(1){
+                    width: 15%;
+                }
+                th:nth-child(2){
+                    width: 30%;
+                    
+                }
+                th:nth-child(3){
+                    width: 10%;
+                }
+                th:nth-child(4){
+                    width: 8%;
+                }
+                th:nth-child(5){
+                    width: 10%;
+                }
+                th:nth-child(6){
+                    width: 10%;
+                }
+                
+                th:nth-child(7){
+                    width: 8%;
+                }
+                th:nth-child(8){
+                    width: 12%;
+                }
+                td{
+                    >img{
+                        width: 70px;
+                        height: 70px;
+                    }
+                   
+                }
+                td:nth-child(8){
+                   
+                    >a{
+                        display: block;
+                        margin-bottom: 5px;
+                    }
+                    a:nth-child(1){
+                        color: green;
+                    }
+                    a:nth-child(2){
+                        width: 100px;
+                        height: 20px;
+                        color: #FFFFFF;
+                        text-decoration: none;
+                        background-color: #ED145B;
+                    }
+                    a:nth-child(3){
+                         color: red;
+                    }
+                }
+                
+            }
+     }
+     
+     #orderModal{
+    .modal-body{
+        text-align: center;
+        color: green;
+    } 
+    }
+    #cancelorderModal{
+    .modal-body{
+        text-align: center;
+        color: red;
+    }
+    }
+    #orderresultModal{
+    .modal-body{
+        text-align: center;
+       
+    }
+    }
+    #orderdelModal{
+    .modal-body{
+        text-align: center;
+        color: red;
+    }
+    }
+     //我的订单-------------------------------------------
+     
+     //我的收藏-------------------------------------------------
+     
+         .collect-font{
+             margin-top: 10px;
+             margin-bottom: 10px;
+             display: block;
+             font-family: "微软雅黑";
+             font-size: 18px;
+             .collect-font1{
+                 color: #FF0000;
+             }
+         }
+         .user-collect1{
+             width: 95%;
+             .user-collect{
+             padding-left:5px;
+             padding-right: 5px;
+             .user-collect2{
+                 border: 1px solid #CCCCCC;
+             .user-collect-a{
+                 img{
+                     width: 100%;
+                     height: 200px;
+                 }
+                }
+                .font2{
+                    color: #FF0000;
+                    font-size: 18px;
+                }
+                .collect{
+                    width: 200px;
+                    height: 40px;
+                    line-height: 40px;
+                    border: 1px solid #017CFE;
+                    text-decoration: none;
+                    background-color: #017CFE;
+                    color: #FFFFFF;
+                    &:hover{
+                        background-color: #0295FF;
+                    }
+                }
+                }
+             }
+         }
+         .navs{
+             width: 100%;
+             text-align: center;
+         }
+     //我的收藏-------------------------------------------------
+     
+     //我的评价
+     .evaluate{
+         width: 100%;
+         .nav-tabs{
+          margin-top: 20px;
+          width: 95%;
+      }
+      .evaluate-table{
+      table{
+                width: 95%;
+                border-collapse:collapse;
+                tr{
+                    
+                    th{
+                        height: 40px;
+                        border-bottom: 1px solid #CCCCCC;
+                        font-weight: normal;
+                       font-family:  Arial,'Microsoft Yahei','\5FAE\8F6F\96C5\9ED1';
+                        text-align: center;
+                    }
+                    td{
+                        border-bottom: 1px solid #CCCCCC;
+                        text-align:center;
+                        
+                    }
+                    .evaluate-font1{
+                            color: #FF0000;
+                        }
+                        .evaluate-font2{
+                            font-size: 13px;
+                            font-family: "微软雅黑";
+                            text-align: left;
+                        }  
+                    .evaluate-a{
+                        display: block;
+                        font-size: 10px;
+                        &:hover{
+                            color: #FF3300;
+                        }
+                    }
+                    .evaluate-price{
+                        color: #FF0000;
+                    }
+                    .evaluate-gf{
+                        color: #FF3300;
+                    }
+                    .time{
+                        opacity: 0.4;
+                    }
+                }
+                th:nth-child(1){
+                    width: 10%;
+                }
+                th:nth-child(2){
+                    width: 45%;
+                    
+                }
+                th:nth-child(3){
+                    width: 10%;
+                }
+                th:nth-child(4){
+                    width: 25%;
+                }
+                th:nth-child(5){
+                    width: 14%;
+                }
+                td:nth-child(5){
+
+                    a:nth-child(1){
+                        color: red;
+                    }
+                }
+                
+            }
+        }
+     }
+     //我的评价-----------------------------------
+   
+     //我的消息--------------------------------
+      .my-mess{
+         width: 100%;
+         .nav-tabs{
+          margin-top: 20px;
+          width: 95%;
+      }
+      .mess-table{
+      table{
+                width: 95%;
+                border-collapse:collapse;
+                tr{
+                    
+                    th{
+                        height: 40px;
+                        border-bottom: 1px solid #CCCCCC;
+                        font-weight: normal;
+                        font-family:  Arial,'Microsoft Yahei','\5FAE\8F6F\96C5\9ED1';
+                        text-align: center;
+                    }
+                    td{
+                        height: 45px;
+                        border-bottom: 1px solid #CCCCCC;
+                        text-align:center;
+                        
+                    }
+                   .font{
+                       font-weight: bold;
+                   }  
+                    .green{
+                        color: green;
+                    }
+                    .red{
+                        color: red;
+                    }
+                }
+                th:nth-child(1){
+                    width: 5%;
+                }
+                th:nth-child(2){
+                    width: 15%;
+                    
+                }
+                th:nth-child(3){
+                    width: 20%;
+                }
+                th:nth-child(4){
+                    width: 15%;
+                }
+            }
+            
+        }
+     }
+     //我的消息------------------------------------------
+     .fenye{//分页样式-------------------------------------------
+         width: 100%;
+         text-align: center;
+     }
+    }//ct-right--------------------------------------
+    
+    //留言消息界面---------------------------------------
+    .message-record{
+        width: 100%;
+    .pagination{
+        display: none;
+    }
+    .message-head{
+        width: 100%;
+        height: 70px;
+        line-height: 70px;
+        border-bottom: 1px solid #CCCCCC;
+        span{
+            font-size: 20px;
+        }
+        .message-head-font{
+         color: #FF0000;
+        }
+        .btn-success{
+            width: 120px;
+            margin-top: 20px;
+            margin-right: 20px;
+            float: right;
+        }
+        
+    }
+    
+    .admin-mess{
+         margin-top: 20px;
+         margin-left: 20px;
+        
+         .admin-name{
+             width: 100%;
+             height: 30px;
+             border-bottom: 1px solid #CCCCCC;
+             .font{
+                 font-weight: bold;
+                 margin-left: 20px;
+             }
+             .green{
+                 margin-left: 5px;
+                 margin-right: 5px;
+                 color: green;
+             }
+         }
+         .mess-screen{
+             width: 100%;
+             height: 350px;
+             overflow:scroll;
+         }
+         
+         .admin-mess-div{
+            margin-bottom: 10px;
+             .red,.blue{
+                  width: 100px;
+                  text-align: right;
+                  font-weight: bold;
+              }
+              .red{
+                 color: red; 
+              }
+              .blue{
+                 color: blue;
+              }
+              .time{
+                  margin-left: 10px;
+                  opacity: 0.7;
+              }
+              .mess{
+                  margin-left: 100px;
+              }
+         }
+     }
+        .mess-submit{
+            margin-top: 30px;
+            width: 95%;
+            height: 200px;
+            label{
+                position: absolute;
+            }
+            .form-control{
+                width: 400px;
+                resize: none;
+                margin-left: 40px;
+            }
+            .btn{
+                margin-top: 30px;
+            }
+            
+        }
+    }
+    //留言消息界面---------------------------------------
+    //售后--------------------------------------------
+    .after-sales{
+         width: 100%;
+         .nav-tabs{
+          margin-top: 20px;
+          width: 95%;
+      }
+      .sales-table{
+      table{
+          border-left: 1px solid #CCCCCC;
+                        border-right: 1px solid #CCCCCC;
+                        border-bottom: 1px solid #CCCCCC;
+                width: 95%;
+                border-collapse:collapse;
+                tr{
+                    
+                    th{
+                        height: 40px;
+                        border-bottom: 1px solid #CCCCCC;
+                        font-weight: normal;
+                        font-family:  Arial,'Microsoft Yahei','\5FAE\8F6F\96C5\9ED1';
+                        text-align: center;
+                    }
+                    td{
+                        height: 30px;
+                        border-left: 1px solid #CCCCCC;
+                        border-right: 1px solid #CCCCCC;
+                        border-bottom: 1px solid #CCCCCC;
+                        text-align:center; 
+                    }
+                   .font{
+                       font-weight: bold;
+                   }  
+                    .green{
+                        margin-left: 5px;
+                        color: green;
+                    }
+                    .red{
+                         margin-left: 5px;
+                        color: red;
+                    }
+                }
+                th:nth-child(1){
+                    width: 3%;
+                }
+                th:nth-child(2){
+                    width: 6%;
+                    
+                }
+                th:nth-child(3){
+                    width: 15%;
+                }
+                th:nth-child(4){
+                    width: 30%;
+                }
+                th:nth-child(5){
+                    width: 15%;
+                }
+                th:nth-child(6){
+                    width: 10%;
+                }
+                th:nth-child(7){
+                    width: 10%;
+                }
+
+            }
+            
+        }
+     }
+    //售后------------------------------------------
+    .fenye{//分页样式-------------------------------------------
+         width: 100%;
+         text-align: center;
+     }
+     .allbtn{
+                margin-top: 10px;
+               width: 100%; 
+               margin-left: 60px;
+            }
+}//ct-main-----------------------------------------
+.end{
+    min-width: 1200px;
+     text-align: center;
+    width: 100%;
+    img{
+        width: 90%;
+       min-width: 1200px;
+    }
+    .endtitle{
+        height:50px;
+        background-color: #F9F9F9;
+        border-top: #0295FF 1px solid;
+        text-align: center;
+    }
+}

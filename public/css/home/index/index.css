@@ -1,0 +1,433 @@
+* {
+  margin: 0px auto;
+  padding: 0px;
+}
+.red {
+  color: #FF0000;
+}
+.head {
+  background-color: #F8F8F8;
+  min-width: 1200px;
+  width: 100%;
+  height: 35px;
+  border-bottom: 1px #CCCCCC solid;
+}
+.head .head-left {
+  display: inline-block;
+  float: left;
+  margin-left: 10px;
+}
+.head .head-left > span {
+  margin-left: 2px;
+}
+.head .head-left > a {
+  margin-left: 2px;
+  color: #FF0000;
+}
+.head .head-left .btn-default {
+  font-family: "微软雅黑";
+  background-color: #F8F8F8;
+  border: 0px;
+  outline: none;
+}
+.head .head-right {
+  padding: 0px;
+  height: 35px;
+  float: right;
+  list-style: none;
+  margin: 0px;
+  line-height: 35px;
+}
+.head .head-right li {
+  height: 35px;
+  float: right;
+  padding: 0px;
+  margin-right: 60px;
+}
+.head .head-right li > a {
+  color: #6C6C6C;
+  font-family: "微软雅黑";
+  font-size: 14px;
+  padding: 0px;
+  text-decoration: none;
+}
+.head .head-right li > a:hover {
+  color: #FF0000;
+}
+.head .head-right .shopli:hover {
+  background-color: #FFFFFF;
+}
+.head .head-right .shopli:hover .shop {
+  display: block;
+  border-left: 1px solid #FCF8E3;
+  border-right: 1px solid #FCF8E3;
+  border-bottom: 1px solid #FCF8E3;
+  box-shadow: 0px 0px 5px #CCCCCC;
+  background-color: #FFFFFF;
+}
+.head .head-right .shop {
+  top: 35px;
+  position: absolute;
+  z-index: 10;
+  display: none;
+  list-style: none;
+  width: 320px;
+  background-color: #FFFFFF;
+}
+.head .head-right .shop > table {
+  width: 100%;
+  margin-bottom: 5px;
+  table-layout: fixed;
+}
+.head .head-right .shop > table tr {
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  border-bottom: 1px dashed #CCCCCC;
+}
+.head .head-right .shop > table tr:hover {
+  background-color: #CCCCCC;
+}
+.head .head-right .shop > table tr td {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  text-align: center;
+  font-size: 8px;
+  font-family: "微软雅黑";
+}
+.head .head-right .shop > table tr td img {
+  display: inline-block;
+  width: 30px;
+  height: 40px;
+}
+.head .head-right .shop > table tr td .remove {
+  display: inline-block;
+  border-radius: 3px;
+  width: 30px;
+  text-align: center;
+  height: 25px;
+  color: #FFFFFF;
+  line-height: 25px;
+  text-decoration: none;
+  background-color: #FF0000;
+}
+.head .head-right .shop > table tr td:nth-child(1) {
+  width: 1%;
+}
+.head .head-right .shop > table tr td:nth-child(2) {
+  width: 15%;
+}
+.head .head-right .shop > table tr td:nth-child(3) {
+  width: 40%;
+}
+.head .head-right .shop > table tr td:nth-child(4) {
+  width: 15%;
+  color: #FF0000;
+  font-weight: bold;
+}
+.head .head-right .shop > table tr td:nth-child(5) {
+  width: 13%;
+}
+.head .head-right .shop > table tr td:nth-child(6) {
+  width: 14%;
+}
+.head .head-right .shop .cart-sum {
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+}
+.head .head-right .shop .cart-sum .span4 {
+  font-size: 8px;
+}
+.head .head-right .shop .shop-cart {
+  display: inline-block;
+  width: 50%;
+  height: 30px;
+  float: right;
+  background-color: #FF7A64;
+  line-height: 30px;
+  text-decoration: none;
+  text-align: center;
+  color: #FFFFFF;
+  font-family: "微软雅黑";
+}
+.head .head-right .shop .shop-cart:hover {
+  background-color: #ED145B;
+}
+.content-top {
+  min-width: 1200px;
+  width: 100%;
+  height: 100px;
+  padding: 0px;
+}
+.content-top .input-group {
+  margin-top: 32px;
+  outline: none;
+}
+.content-top .font {
+  margin-top: 35px;
+  color: #FF5B01;
+  font-size: 12px;
+  position: absolute;
+}
+.content-top .img {
+  height: 100px;
+}
+.content-top .form-control {
+  border-radius: 0px;
+  box-shadow: none;
+  border: 1px solid #00B38A;
+}
+.content-top .btn-default {
+  background-color: #00B38A;
+  border-radius: 0px;
+  outline: 0;
+  width: 50px;
+  border: 1px solid #00B38A;
+}
+.content-top .btn-default:active {
+  background-color: #00B38A;
+  outline: 0;
+  border: none;
+}
+.container-fluid {
+  min-width: 1200px;
+  padding: 0px;
+}
+.content-menu1 {
+  min-width: 1200px;
+  width: 100%;
+  background-color: #00B38A;
+}
+.content-menu1 .content-menu {
+  padding: 0px;
+  width: 90%;
+  height: 40px;
+}
+.content-menu1 .content-menu > ul {
+  width: 100%;
+  list-style: none;
+  height: 40px;
+  line-height: 39px;
+}
+.content-menu1 .content-menu > ul > li {
+  width: 180px;
+  float: left;
+  text-align: center;
+}
+.content-menu1 .content-menu > ul > li > ul {
+  width: 180px;
+  height: 250px;
+  position: absolute;
+  z-index: 10;
+  list-style: none;
+  background-color: #44413E;
+}
+.content-menu1 .content-menu > ul > li > ul > li {
+  text-align: center;
+}
+.content-menu1 .content-menu > ul > li > ul > li > a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-family: "微软雅黑";
+}
+.content-menu1 .content-menu > ul > li > ul > li:hover {
+  background: #F5F5F5;
+}
+.content-menu1 .content-menu > ul > li > ul > li:hover > a {
+  color: #FF0000;
+}
+.content-menu1 .content-menu > ul > li > a {
+  color: #FFFFFF;
+  font-family: "微软雅黑";
+  font-size: 15px;
+  text-decoration: none;
+  outline: none;
+}
+.content-menu1 .content-menu > ul > li:hover {
+  background-color: #40C19D;
+}
+.content-menu1 .content-menu .li-div {
+  display: none;
+  width: 210px;
+  height: 250px;
+  text-align: left;
+  top: 0px;
+  margin-left: 180px;
+  position: absolute;
+  z-index: 10;
+  background-color: #FFFFFF;
+}
+.content-menu1 .content-menu .li-div > a {
+  display: inline-block;
+  width: 100px;
+  height: 20px;
+  text-align: center;
+  color: #000000;
+  font-family: "微软雅黑";
+}
+.content-menu1 .content-menu .li-div > a:hover {
+  color: #FF5B01;
+}
+.content-Carousel-div {
+  width: 100%;
+  min-width: 1200px;
+  height: 250px;
+}
+.content-Carousel-div .content-Carousel {
+  height: 250px;
+}
+.content-Carousel-div .content-Carousel .carousel-inner img {
+  width: 100%;
+  height: 250px;
+}
+.content-main {
+  height: auto;
+  margin-top: 20px;
+  width: 90%;
+  min-width: 1200px;
+}
+.content-main .head1,
+.content-main .head2,
+.content-main .head3,
+.content-main .head4,
+.content-main .head5 {
+  margin-top: 40px;
+  height: 40px;
+  text-align: center;
+}
+.content-main .head1 > span,
+.content-main .head2 > span,
+.content-main .head3 > span,
+.content-main .head4 > span,
+.content-main .head5 > span {
+  display: inline-block;
+  width: 18%;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: "微软雅黑";
+}
+.content-main .head1 .left,
+.content-main .head2 .left,
+.content-main .head3 .left,
+.content-main .head4 .left,
+.content-main .head5 .left,
+.content-main .head1 .right,
+.content-main .head2 .right,
+.content-main .head3 .right,
+.content-main .head4 .right,
+.content-main .head5 .right {
+  display: inline-block;
+  width: 40%;
+  height: 5px;
+  border-top: 1px solid #D9D9D9;
+}
+.content-main .head1 {
+  height: 40px;
+}
+.content-main .head2 {
+  height: 40px;
+}
+.content-main .shop {
+  min-height: 200px;
+  padding: 0px;
+  list-style: none;
+}
+.content-main .shop .shoplist {
+  margin-top: 10px;
+  padding: 5px;
+  display: block;
+}
+.content-main .shop .shoplist .price-collect {
+  padding: 0px;
+  text-align: left;
+}
+.content-main .shop .shoplist:hover {
+  padding: 4px;
+  border: 1px solid #CCCCCC;
+  box-shadow: 0px 0px 30px #F9F9F9;
+}
+.content-main .shop .shoplist .font1 {
+  display: inline-block;
+  text-decoration: none;
+  color: #000000;
+  margin-top: 10px;
+  font-size: 13px;
+  height: 60px;
+}
+.content-main .shop .font1:hover {
+  color: #FF5B01;
+}
+.content-main .shop .font2 {
+  font-size: 13px;
+  font-weight: bold;
+  color: #999999;
+}
+.content-main .shop .font2:hover {
+  color: #FF0000;
+}
+.content-main .shop .font3 {
+  font-size: 14px;
+  color: #999999;
+  font-family: "Microsoft Yahei", simsun, Arial, Helvetica, sans-serif;
+  text-decoration: line-through;
+}
+.content-main .shop .font4 {
+  font-weight: bold;
+  color: #FF0000;
+  font-size: 17px;
+  font-family: "Microsoft Yahei", simsun, Arial, Helvetica, sans-serif;
+}
+.content-main .shop .font5 {
+  font-family: "Microsoft Yahei", simsun, Arial, Helvetica, sans-serif;
+  font-size: 19px;
+  color: #FF0000;
+}
+.content-main .shop .cart {
+  height: 50px;
+  padding: 0px;
+  line-height: 50px;
+  border-radius: 3px;
+  position: absolute;
+  bottom: 5px;
+  right: 1px;
+  display: inline-block;
+  background-color: #40C19D;
+  border: 1px solid #40C19D;
+  color: #FFFFFF;
+  text-align: center;
+}
+.content-main .shop .cart:hover {
+  background-color: #017CFE;
+}
+.content-main .shop .collect {
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  display: inline-block;
+  background-color: #FCFCFC;
+  color: #666666;
+  border: 1px solid #CCCCCC;
+  text-decoration: none;
+}
+#myModal2 .modal-body {
+  text-align: center;
+  color: green;
+}
+.content-main .shop .collect:hover {
+  background-color: #CCCCCC;
+}
+.end {
+  min-width: 1200px;
+  width: 100%;
+}
+.end img {
+  width: 90%;
+}
+.end .endtitle {
+  height: 50px;
+  background-color: #F9F9F9;
+  border-top: #0295FF 1px solid;
+  text-align: center;
+} /*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */

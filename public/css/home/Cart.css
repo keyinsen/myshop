@@ -1,0 +1,152 @@
+.ct-main {
+  min-height: 400px;
+  width: 90%;
+  min-width: 1100px;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #FF3300;
+}
+.ct-main table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #CCCCCC;
+  table-layout: fixed;
+ 
+}
+
+.ct-main table tr{
+  width: 100%;
+  
+}
+.ct-main table th {
+  background-color: #FAFAFA;
+  text-align: center;
+  border-bottom: 1px solid #CCCCCC;
+  height: 30px;
+  line-height: 30px;
+  font-weight: 100;
+  
+  font-family: "微软雅黑", Tahoma, Geneva, sans-serif;
+}
+.ct-main table th:nth-child(1) {
+  width: 1%;
+}
+.ct-main table th:nth-child(2) {
+  width: 3%;
+}
+.ct-main table th:nth-child(3) {
+  width: 5%;
+}
+.ct-main table th:nth-child(4) {
+  width: 40%;
+}
+.ct-main table th:nth-child(5) {
+  width: 12%;
+}
+.ct-main table th:nth-child(6) {
+  width: 10%;
+}
+.ct-main table th:nth-child(7) {
+  width: 16%;
+  
+}
+.ct-main table th:nth-child(8) {
+  width: 8%; 
+}
+
+.ct-main table tr td {
+	 text-overflow:ellipsis;
+  overflow: hidden;
+  height: 70px;
+  border-bottom: 1px solid #CCCCCC;
+  text-align: center;
+}
+.ct-main table td img {
+  width: 60px;
+  height: 60px;
+}
+.ct-main table td .font1 {
+  font-weight: bold;
+}
+.ct-main table td .font2 {
+  opacity: 0.7;
+  text-decoration: line-through;
+}
+.ct-main table td .input-group {
+  width: 100%;
+}
+.ct-main table td .input-group .input-group-addon {
+  cursor: pointer;
+}
+.ct-main table td .font3 {
+  color: #FF0000;
+  font-size: 17px;
+}
+.ct-main table td .font4 {
+  color: #FF0000;
+}
+.ct-main .tr {
+  width: 100%;
+  height: 30px;
+  background-color: #FAFAFA;
+  border-bottom: 1px solid #CCCCCC;
+  border-right: 1px solid #CCCCCC;
+  border-left: 1px solid #CCCCCC;
+}
+.ct-main .foot {
+  margin-top: 20px;
+  height: 40px;
+  line-height: 40px;
+  width: 100%;
+  background-color: #FAFAFA;
+  border: 1px solid #CCCCCC;
+}
+.ct-main .foot .remove {
+  margin-left: 10px;
+  color: #FF0000;
+}
+.ct-main .foot .right {
+  float: right;
+}
+.ct-main .foot .right .right-font1 {
+  font-size: 13px;
+}
+.ct-main .foot .right .right-font2 {
+  color: #FF0000;
+}
+.ct-main .foot .right .right-font3 {
+  margin-left: 10px;
+  font-size: 13px;
+  font-weight: bold;
+}
+.ct-main .foot .right .right-font4 {
+  color: #ED145B;
+  font-family: "微软雅黑";
+  font-size: 20px;
+  font-weight: bold;
+}
+.ct-main .foot .btn-success {
+  width: 100px;
+  margin-top: -10px;
+  margin-left: 10px;
+}
+.ct-main .goodsnot {
+  width: 100%;
+  display: block;
+  margin-top: 30px;
+  text-align: center;
+}
+.ct-main .goodsnot span {
+  opacity: 0.8;
+  font-size: 25px;
+}
+#mycartModel .modal-body {
+	margin-top: 100px;
+  text-align: center;
+  color: green;
+ 
+}
+#mycartModel .modal-body span{
+  	color:  #FF0000;
+  }
+/*# sourceMappingURL=Cart.css.map */

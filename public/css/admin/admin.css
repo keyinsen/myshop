@@ -1,0 +1,1442 @@
+* {
+  padding: 0px;
+  margin: 0px auto;
+}
+.color {
+  color: #FFFFFF;
+}
+.head {
+  min-width: 1100px;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  background-color: #212121;
+}
+.head .head-left {
+  height: 50px;
+  display: inline-block;
+}
+.head .head-left span {
+  font-size: 17px;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+.head .head-left a {
+  margin-left: 20px;
+  text-decoration: none;
+}
+.head .head-left .font {
+  color: #FF5B01;
+}
+.head .user-menu {
+  display: inline-block;
+  margin-right: 50px;
+  float: right;
+  list-style: none;
+  padding: 0;
+  margin-bottom: 0px;
+}
+.head .user-menu .logo {
+  width: 60px;
+  text-align: center;
+}
+.head .user-menu .logo:hover {
+  background-color: rgba(235, 235, 235, 0.1);
+}
+.head .user-menu > li {
+  height: 50px;
+  line-height: 50px;
+  float: left;
+}
+.head .user-menu > li .badge {
+  margin-top: -25px;
+  margin-left: -5px;
+  background-color: red;
+}
+.head .user-menu > li img {
+  margin-left: 10px;
+  width: 30px;
+  height: 30px;
+}
+.head .user-menu a {
+  color: #fff;
+}
+.head .user-menu a .caret {
+  margin-right: 10px;
+}
+.head .user-menu a:hover,
+.head .user-menu a:focus {
+  text-decoration: none;
+}
+.head .user-menu .dropdown:hover {
+  background-color: rgba(235, 235, 235, 0.1);
+}
+.head .user-menu .dropdown-menu li span {
+  color: #000000;
+}
+.head .user-menu .dropdown-menu li a {
+  color: #000000;
+}
+.ct {
+  width: 100%;
+  min-width: 1100px;
+  background-color: #F2F4F8;
+}
+.ct .container-fluid {
+  padding: 0px;
+}
+.ct .ct-left {
+  padding: 0px;
+  height: 20px;
+}
+.ct .ct-left .panel-group .panel + .panel {
+  margin-top: 0px;
+  border-radius: 0px;
+}
+.ct .ct-left .panel {
+  border: none;
+  box-shadow: 0px 0px 10px #CCCCCC;
+}
+.ct .ct-left .panel-heading {
+  height: 40px;
+  background-color: #FFFFFF;
+  line-height: 40px;
+  padding: 0px;
+  border-radius: 0px;
+  border: 1px solid #CCCCCC;
+}
+.ct .ct-left .panel-heading a {
+  text-decoration: none;
+}
+.ct .ct-left .panel-heading .glyphicon {
+  text-align: center;
+}
+.ct .ct-left .panel-heading img {
+  height: 40px;
+}
+.ct .ct-left .panel-body {
+  padding: 0px;
+  width: 95%;
+}
+.ct .ct-left .panel-body ul {
+  margin: 0px;
+  width: 100%;
+  list-style: none;
+}
+.ct .ct-left .panel-body ul li {
+  text-align: center;
+  border-bottom: 1px solid #CCCCCC;
+  border-left: 1px solid #CCCCCC;
+  border-right: 1px solid #CCCCCC;
+}
+.ct .ct-left .panel-body ul li a {
+  width: 100%;
+  font-family: "微软雅黑";
+  text-decoration: none;
+  display: block;
+  height: 30px;
+  line-height: 30px;
+  background-color: #F8F6F4;
+  font-weight: bold;
+  color: #000000;
+}
+.ct .ct-left .panel-body ul li a:hover {
+  background-color: #CCCCCC;
+}
+.ct .ct-right {
+  padding: 0px;
+  height: 900px;
+  background-color: #FFFFFF;
+}
+.ct .ct-right .breadcrumb {
+  background-color: #F2F4F8;
+}
+.ct .ct-right .breadcrumb li {
+  color: #000000;
+}
+.ct .ct-right .ct-right-box .box {
+  height: 102px;
+}
+.ct .ct-right .ct-right-box .box .glyphicon-usd,
+.ct .ct-right .ct-right-box .box .glyphicon-comment,
+.ct .ct-right .ct-right-box .box .glyphicon-user,
+.ct .ct-right .ct-right-box .box .glyphicon-shopping-cart {
+  margin-top: 5px;
+  margin-left: 5px;
+  color: #FFFFFF;
+  font-size: 70px;
+}
+.ct .ct-right .ct-right-box .box .font {
+  font-size: 20px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+.ct .ct-right .ct-right-box .box .font1 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+.ct .ct-right .ct-right-box .box .bttoms1,
+.ct .ct-right .ct-right-box .box .bttoms2,
+.ct .ct-right .ct-right-box .box .bttoms3,
+.ct .ct-right .ct-right-box .box .bttoms4 {
+  display: block;
+  height: 20px;
+  line-height: 20px;
+  text-decoration: none;
+}
+.ct .ct-right .ct-right-box .box .bttoms1 span,
+.ct .ct-right .ct-right-box .box .bttoms2 span,
+.ct .ct-right .ct-right-box .box .bttoms3 span,
+.ct .ct-right .ct-right-box .box .bttoms4 span {
+  color: #BECEDB;
+}
+.ct .ct-right .ct-right-box .box .bttoms1 .glyphicon-circle-arrow-right,
+.ct .ct-right .ct-right-box .box .bttoms2 .glyphicon-circle-arrow-right,
+.ct .ct-right .ct-right-box .box .bttoms3 .glyphicon-circle-arrow-right,
+.ct .ct-right .ct-right-box .box .bttoms4 .glyphicon-circle-arrow-right {
+  margin-top: 3px;
+  margin-right: 5px;
+  float: right;
+}
+.ct .ct-right .ct-right-box .box .bttoms1:hover span,
+.ct .ct-right .ct-right-box .box .bttoms2:hover span,
+.ct .ct-right .ct-right-box .box .bttoms3:hover span,
+.ct .ct-right .ct-right-box .box .bttoms4:hover span {
+  color: #FFFFFF;
+}
+.ct .ct-right .ct-right-box .box .bttoms1 {
+  background-color: #2295C9;
+}
+.ct .ct-right .ct-right-box .box .bttoms2 {
+  background-color: #17A769;
+}
+.ct .ct-right .ct-right-box .box .bttoms3 {
+  background-color: #4242FF;
+}
+.ct .ct-right .ct-right-box .box .bttoms4 {
+  background-color: #DB9628;
+}
+.ct .ct-right .ct-right-box .box1 {
+  box-shadow: 0px 0px 10px #2295C9;
+  background-color: #27A9E3;
+}
+.ct .ct-right .ct-right-box .box2 {
+  box-shadow: 0px 0px 10px #06D995;
+  background-color: #06D995;
+}
+.ct .ct-right .ct-right-box .box3 {
+  box-shadow: 0px 0px 10px #3B5998;
+  background-color: #3B5998;
+}
+.ct .ct-right .ct-right-box .box4 {
+  box-shadow: 0px 0px 10px #FFB848;
+  background-color: #FFB848;
+}
+.ct .ct-right .touxiang1 {
+  width: 140px;
+  height: 140px;
+  right: 50px;
+  border: 1px solid #CCCCCC;
+  position: absolute;
+  text-align: center;
+}
+.ct .ct-right .touxiang1 > img {
+  width: 140px;
+  height: 140px;
+}
+.ct .ct-right .touxiang1 .btn-touxiang {
+  display: block;
+  text-align: center;
+  line-height: 30px;
+  width: 80px;
+  height: 30px;
+  background-color: peachpuff;
+  text-decoration: none;
+}
+.ct .ct-right .xing {
+  color: #FF0000;
+}
+.ct .ct-right .perinfo {
+  margin-top: 10px;
+  width: 85%;
+  height: 40px;
+}
+.ct .ct-right .perinfo input {
+  outline: none;
+  border: none;
+  border-bottom: 1px #CCCCCC solid;
+  height: 30px;
+}
+.ct .ct-right .perinfo > label {
+  width: 100px;
+  font-family: Arial, 'Microsoft Yahei', '\5FAE\8F6F\96C5\9ED1';
+  text-align: right;
+  margin-right: 10px;
+}
+.ct .ct-right .perinfo > select {
+  text-align: center;
+}
+.ct .ct-right .perinfo span {
+  color: #FF0000;
+}
+.ct .ct-right .perinfo-mess {
+  margin-top: 10px;
+  width: 85%;
+  height: 100px;
+}
+.ct .ct-right .perinfo-mess > label {
+  width: 100px;
+  font-family: Arial, 'Microsoft Yahei', '\5FAE\8F6F\96C5\9ED1';
+  text-align: right;
+  margin-right: 10px;
+}
+.ct .ct-right .perinfo-mess > textarea {
+  resize: none;
+}
+.ct .ct-right .perinfo-mess .form-control {
+  margin-top: -20px;
+  margin-left: 110px;
+  width: 200px;
+}
+.ct .ct-right .perinfo-mess .btn {
+  margin-left: 110px;
+}
+.ct .ct-right .adminsafe {
+  width: 70%;
+  margin-top: 10px;
+}
+.ct .ct-right .adminsafe p {
+  margin-left: 120px;
+  color: #999999;
+}
+.ct .ct-right .adminsafe label {
+  width: 100px;
+  margin-right: 10px;
+  text-align: right;
+}
+.ct .ct-right .adminsafe input {
+  display: inline;
+  width: 200px;
+}
+.ct .ct-right .adminsafe .xing {
+  color: #FF0000;
+}
+.ct .ct-right .adminsafe span {
+  color: #FF0000;
+}
+.ct .ct-right .adminsafe .que {
+  display: inline-block;
+  width: 200px;
+  height: 30px;
+  text-decoration: underline;
+}
+.ct .ct-right .adminsafe .Quetext {
+  margin-left: 110px;
+}
+.ct .ct-right .adminsafe .voidimg {
+  display: inline-block;
+  width: 100px;
+  height: 30px;
+  border: 1px solid #CCCCCC;
+}
+.ct .ct-right .safe-btn {
+  width: 50%;
+  text-align: center;
+}
+.ct .ct-right .adminsafe-text {
+  padding-left: 110px;
+  width: 70%;
+}
+.ct .ct-right .adminsafe-text label {
+  width: 100px;
+  margin-right: 10px;
+  text-align: right;
+}
+.ct .ct-right .adminsafe-text p {
+  margin-left: 5px;
+  color: #999999;
+}
+.ct .ct-right .adminsafe-text input {
+  display: inline;
+  width: 200px;
+}
+.ct .ct-right .adminsafe-text .xing {
+  color: #FF0000;
+}
+.ct .ct-right .adminsafe-text span {
+  color: #FF0000;
+}
+.ct .ct-right .admin-font {
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  display: block;
+  font-size: 17px;
+  font-weight: bold;
+  font-family: "微软雅黑";
+  color: #000000;
+}
+.ct .ct-right .admin-div {
+  margin-bottom: 10px;
+}
+.ct .ct-right .admin-div label {
+  width: 100px;
+  margin-right: 10px;
+  font-family: "微软雅黑";
+  font-weight: 100;
+  text-align: right;
+}
+.ct .ct-right .admin-div > input {
+  display: inline;
+  width: 200px;
+}
+.ct .ct-right .admin-div .xing {
+  color: #FF0000;
+}
+.ct .ct-right .admin-div span {
+  color: #FF0000;
+}
+.ct .ct-right .admin-div .admin-list1 {
+  display: inline-block;
+  width: 150px;
+}
+.ct .ct-right .admin-div .admin-list2 {
+  display: inline-block;
+  width: 100px;
+}
+.ct .ct-right .admin-div .admin-list3 {
+  display: inline-block;
+  width: 100px;
+}
+.ct .ct-right .admin-div .admin-detail-t {
+  position: absolute;
+  margin-top: 0px;
+}
+.ct .ct-right .admin-div .admin-detail {
+  margin-left: 115px;
+  margin-top: 10px;
+  display: inline-block;
+  height: 50px;
+  resize: none;
+  width: 600px;
+}
+.ct .ct-right .admin-div p {
+  margin-left: 10px;
+}
+.ct .ct-right .admins-tables {
+  width: 100%;
+}
+.ct .ct-right .admins-tables table {
+  width: 90%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+.ct .ct-right .admins-tables table tr th {
+  border: 1px solid #CCCCCC;
+  text-align: center;
+}
+.ct .ct-right .admins-tables table tr td {
+  height: 40px;
+  border: 1px solid #CCCCCC;
+  text-align: center;
+}
+.ct .ct-right .admins-tables table tr .btn {
+  width: 40px;
+  padding: 0px;
+  height: 25px;
+}
+.ct .ct-right .admins-tables table th:nth-child(1) {
+  width: 5%;
+}
+.ct .ct-right .admins-tables table th:nth-child(2) {
+  width: 9%;
+}
+.ct .ct-right .admins-tables table th:nth-child(3) {
+  width: 20%;
+}
+.ct .ct-right .admins-tables table th:nth-child(4) {
+  width: 20%;
+}
+.ct .ct-right .admins-tables table th:nth-child(5) {
+  width: 15%;
+}
+.ct .ct-right .admins-tables table th:nth-child(6) {
+  width: 10%;
+}
+.ct .ct-right .admins-tables table th:nth-child(7) {
+  width: 20%;
+}
+.ct .ct-right .manallbtn {
+  margin-top: 10px;
+  width: 90%;
+  margin-left: 60px;
+}
+.ct .ct-right .fenye {
+  width: 100%;
+  text-align: center;
+}
+.ct .ct-right #ManageModal .modal-body {
+  color: red;
+  text-align: center;
+}
+.ct .ct-right #ManagefailModal .modal-body {
+  color: red;
+  text-align: center;
+}
+.ct .ct-right .admin-user {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  width: 100%;
+}
+.ct .ct-right .admin-user .input-group {
+  margin-left: 0px;
+  width: 30%;
+}
+.ct .ct-right .admin-table {
+  width: 100%;
+}
+.ct .ct-right .admin-table table {
+  width: 98%;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+.ct .ct-right .admin-table table tr th {
+  border: 1px solid #CCCCCC;
+  text-align: center;
+}
+.ct .ct-right .admin-table table tr td {
+  border: 1px solid #CCCCCC;
+  text-align: center;
+  height: 40px;
+}
+.ct .ct-right .admin-table table tr .btn {
+  height: 30px;
+}
+.ct .ct-right .admin-table table tr input {
+  text-align: center;
+  outline: none;
+  border: none;
+  border-bottom: 1px #CCCCCC solid;
+  height: 30px;
+}
+.ct .ct-right .admin-table table th:nth-child(1) {
+  width: 2%;
+}
+.ct .ct-right .admin-table table th:nth-child(2) {
+  width: 7%;
+}
+.ct .ct-right .admin-table table th:nth-child(3) {
+  width: 13%;
+}
+.ct .ct-right .admin-table table td:nth-child(3) {
+  font-size: 13px;
+}
+.ct .ct-right .admin-table table th:nth-child(4) {
+  width: 14%;
+}
+.ct .ct-right .admin-table table th:nth-child(5) {
+  width: 13%;
+}
+.ct .ct-right .admin-table table th:nth-child(6) {
+  width: 13%;
+}
+.ct .ct-right .admin-table table th:nth-child(7) {
+  width: 13%;
+}
+.ct .ct-right .admin-table table th:nth-child(8) {
+  width: 4%;
+}
+.ct .ct-right .admin-table table th:nth-child(9) {
+  width: 5%;
+}
+.ct .ct-right .admin-table table th:nth-child(10) {
+  width: 10%;
+}
+.ct .ct-right .admin-table table th:nth-child(11) {
+  width: 8%;
+}
+.ct .ct-right .admin-table .userallbtn {
+  margin-top: 10px;
+  width: 90%;
+  margin-left: 60px;
+}
+.ct .ct-right .admin-table .btnpro {
+  padding: 0px;
+  width: 35px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 0px;
+}
+.ct .ct-right #UserModal .modal-body {
+  color: red;
+  text-align: center;
+}
+.ct .ct-right #UserfailModal .modal-body {
+  color: red;
+  text-align: center;
+}
+.ct .ct-right .admin-goods1,
+.ct .ct-right .admin-goods2 {
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+.ct .ct-right .admin-goods1 .input-group,
+.ct .ct-right .admin-goods2 .input-group {
+  margin-left: 0px;
+}
+.ct .ct-right .admin-goods2 {
+  width: 230px;
+}
+.ct .ct-right .admin-goods1 {
+  width: 400px;
+}
+.ct .ct-right .goodsInfo {
+  width: 100%;
+}
+.ct .ct-right .goodsInfo .nav-tabs {
+  margin-top: 20px;
+  width: 95%;
+}
+.ct .ct-right .goodsInfo .goodsInfo-table table {
+  width: 95%;
+  border-collapse: collapse;
+  border-bottom: 1px solid #CCCCCC;
+  border-left: 1px solid #CCCCCC;
+  border-right: 1px solid #CCCCCC;
+}
+.ct .ct-right .goodsInfo .goodsInfo-table table tr th {
+  height: 40px;
+  border-bottom: 1px solid #CCCCCC;
+  font-weight: normal;
+  font-family: Arial, 'Microsoft Yahei', '\5FAE\8F6F\96C5\9ED1';
+  text-align: center;
+}
+.ct .ct-right .goodsInfo .goodsInfo-table table tr td {
+  height: 40px;
+  border-bottom: 1px solid #CCCCCC;
+  border-left: 1px solid #CCCCCC;
+  border-right: 1px solid #CCCCCC;
+  text-align: center;
+}
+.ct .ct-right .goodsInfo .goodsInfo-table table th:nth-child(1) {
+  width: 3%;
+}
+.ct .ct-right .goodsInfo .goodsInfo-table table th:nth-child(2) {
+  width: 5%;
+}
+.ct .ct-right .goodsInfo .goodsInfo-table table th:nth-child(3) {
+  width: 25%;
+}
+.ct .ct-right .goodsInfo .goodsInfo-table table td:nth-child(3) {
+  font-size: 12px;
+}
+.ct .ct-right .goodsInfo .goodsInfo-table table th:nth-child(4) {
+  width: 10%;
+}
+.ct .ct-right .goodsInfo .goodsInfo-table table th:nth-child(5) {
+  width: 7%;
+}
+.ct .ct-right .goodsInfo .goodsInfo-table table th:nth-child(6) {
+  width: 7%;
+}
+.ct .ct-right .goodsInfo .goodsInfo-table table th:nth-child(7) {
+  width: 7%;
+}
+.ct .ct-right .goodsInfo .goodsInfo-table table th:nth-child(8) {
+  width: 7%;
+}
+.ct .ct-right .goodsInfo .goodsInfo-table table th:nth-child(9) {
+  width: 7%;
+}
+.ct .ct-right .goodsInfo .goodsInfo-table table th:nth-child(10) {
+  width: 25%;
+}
+.ct .ct-right .goodsInfo .goodsInfo-table .allbtn {
+  margin-top: 10px;
+  width: 100%;
+  margin-left: 60px;
+}
+.ct .ct-right .goodsInfo .goodsInfo-table .fenye {
+  width: 100%;
+  text-align: center;
+}
+.ct .ct-right .goodsInfo .goodsInfo-table .btnpro {
+  padding: 0px;
+  width: 50px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 0px;
+}
+.ct .ct-right #shelvesModal .modal-body {
+  color: green;
+  text-align: center;
+}
+.ct .ct-right .goodsimg {
+  width: 220px;
+  height: 220px;
+  right: 50px;
+  position: absolute;
+  text-align: center;
+}
+.ct .ct-right .goodsimg > img {
+  width: 220px;
+  height: 220px;
+}
+.ct .ct-right .goodsdescript {
+  margin-left: 0px;
+  width: 50%;
+  text-align: left;
+  margin-bottom: 10px;
+}
+.ct .ct-right .goodsdescript label {
+  width: 100px;
+  margin-right: 10px;
+  font-family: "微软雅黑";
+  font-weight: bold;
+  text-align: right;
+}
+.ct .ct-right .goods-div {
+  margin-bottom: 10px;
+}
+.ct .ct-right .goods-div label {
+  width: 100px;
+  margin-right: 10px;
+  font-family: "微软雅黑";
+  font-weight: bold;
+  text-align: right;
+}
+.ct .ct-right .goods-div2 {
+  width: 65%;
+  margin-left: 50px;
+  margin-bottom: 10px;
+}
+.ct .ct-right .goods-div2 label {
+  font-weight: bold;
+  margin-right: 10px;
+  font-family: "微软雅黑";
+  text-align: right;
+}
+.ct .ct-right .addgoods {
+  width: 100%;
+}
+.ct .ct-right .addgoods .addgoods-div {
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+.ct .ct-right .addgoods .addgoods-div .goods-type {
+  display: inline-block;
+  width: 150px;
+}
+.ct .ct-right .addgoods .addgoods-div .goodsdiscrpt {
+  position: absolute;
+}
+.ct .ct-right .addgoods .addgoods-div textarea {
+  display: inline-block;
+  margin-left: 120px;
+  width: 400px;
+  resize: none;
+}
+.ct .ct-right .addgoods .addgoods-div .discript {
+  margin-top: 30px;
+  position: absolute;
+}
+.ct .ct-right .addgoods .addgoods-div .goodsname-text {
+  display: inline-block;
+  width: 500px;
+}
+.ct .ct-right .addgoods .addgoods-div .file {
+  display: inline-block;
+  width: 400px;
+}
+.ct .ct-right .addgoods .addgoods-div label {
+  width: 100px;
+  text-align: right;
+  font-weight: normal;
+}
+.ct .ct-right .addgoods .addgoods-div span {
+  color: #FF0000;
+}
+.ct .ct-right .addgoods .tijiao {
+  width: 100%;
+  text-align: center;
+}
+.ct .ct-right .addgoods .lefts {
+  display: inline-block;
+  margin-left: 60px;
+}
+.ct .ct-right .addgoods .addgoods-line {
+  margin-right: 5px;
+  margin-bottom: 15px;
+  display: inline-block;
+}
+.ct .ct-right .addgoods .addgoods-line .price {
+  display: inline-block;
+  width: 100px;
+}
+.ct .ct-right .addgoods .addgoods-line label {
+  text-align: right;
+  font-weight: normal;
+}
+.ct .ct-right .addgoods .addgoods-line .spec {
+  display: inline-block;
+  width: 150px;
+}
+.ct .ct-right .addgoods .goods-div2 {
+  width: 90%;
+  margin-left: 56px;
+  margin-bottom: 10px;
+}
+.ct .ct-right .addgoods .goods-div2 label {
+  margin-right: 5px;
+  text-align: right;
+  font-weight: normal;
+}
+.ct .ct-right .addgoods .goods-div2 .kuai {
+  padding: 0px;
+  margin-bottom: 10px;
+}
+.ct .ct-right .addgoods .goods-div2 .spec {
+  display: inline-block;
+  width: 170px;
+}
+.ct .ct-right .category-div {
+  margin-bottom: 10px;
+}
+.ct .ct-right .category-div label {
+  width: 100px;
+  margin-right: 10px;
+  font-family: "微软雅黑";
+  font-weight: 100;
+  text-align: right;
+}
+.ct .ct-right .category-div > input {
+  display: inline;
+  width: 200px;
+}
+.ct .ct-right .category-div .xing {
+  color: #FF0000;
+}
+.ct .ct-right .category-div span {
+  color: #FF0000;
+}
+.ct .ct-right .category-div .category-list {
+  display: inline-block;
+  width: 150px;
+}
+.ct .ct-right .category-table {
+  width: 100%;
+}
+.ct .ct-right .category-table table {
+  width: 90%;
+  border-collapse: collapse;
+}
+.ct .ct-right .category-table table tr th {
+  border: 1px solid #CCCCCC;
+  text-align: center;
+}
+.ct .ct-right .category-table table tr td {
+  height: 40px;
+  border: 1px solid #CCCCCC;
+  text-align: center;
+}
+.ct .ct-right .category-table table tr .btn {
+  height: 30px;
+}
+.ct .ct-right .category-table table th:nth-child(1) {
+  width: 10%;
+}
+.ct .ct-right .category-table table th:nth-child(2) {
+  width: 30%;
+}
+.ct .ct-right .category-table table th:nth-child(3) {
+  width: 30%;
+}
+.ct .ct-right .category-table table th:nth-child(4) {
+  width: 20%;
+}
+.ct .ct-right .category-table table .allbtn {
+  margin-top: 10px;
+  width: 100%;
+  margin-left: 60px;
+}
+.ct .ct-right .category-table table .fenye {
+  width: 100%;
+  text-align: center;
+}
+.ct .ct-right .category-table .btnpro {
+  padding: 0px;
+  width: 50px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 0px;
+}
+.ct .ct-right #CateModal .modal-body {
+  color: red;
+  text-align: center;
+}
+.ct .ct-right .spec-div {
+  margin-bottom: 10px;
+}
+.ct .ct-right .spec-div label {
+  width: 100px;
+  margin-right: 10px;
+  font-family: "微软雅黑";
+  font-weight: 100;
+  text-align: right;
+}
+.ct .ct-right .spec-div > input {
+  display: inline;
+  width: 200px;
+}
+.ct .ct-right .spec-div .xing {
+  color: #FF0000;
+}
+.ct .ct-right .spec-div span {
+  color: #FF0000;
+}
+.ct .ct-right .spec-div .spec-list {
+  display: inline-block;
+  width: 150px;
+}
+.ct .ct-right .spec-table {
+  width: 100%;
+}
+.ct .ct-right .spec-table table {
+  width: 90%;
+  border-collapse: collapse;
+}
+.ct .ct-right .spec-table table tr th {
+  border: 1px solid #CCCCCC;
+  text-align: center;
+}
+.ct .ct-right .spec-table table tr td {
+  height: 40px;
+  border: 1px solid #CCCCCC;
+  text-align: center;
+}
+.ct .ct-right .spec-table table tr .btn {
+  height: 30px;
+}
+.ct .ct-right .spec-table table th:nth-child(1) {
+  width: 5%;
+}
+.ct .ct-right .spec-table table th:nth-child(2) {
+  width: 10%;
+}
+.ct .ct-right .spec-table table th:nth-child(3) {
+  width: 30%;
+}
+.ct .ct-right .spec-table table th:nth-child(4) {
+  width: 30%;
+}
+.ct .ct-right .spec-table table th:nth-child(5) {
+  width: 20%;
+}
+.ct .ct-right .spec-table .btnpro {
+  padding: 0px;
+  width: 60px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 0px;
+}
+.ct .ct-right .spec-table .fenye {
+  width: 100%;
+  text-align: center;
+}
+.ct .ct-right #SpecModal .modal-body {
+  color: red;
+  text-align: center;
+}
+.ct .ct-right #SpecfailModal .modal-body {
+  color: red;
+  text-align: center;
+}
+.ct .ct-right .specval-div {
+  margin-bottom: 10px;
+}
+.ct .ct-right .specval-div label {
+  width: 100px;
+  margin-right: 10px;
+  font-family: "微软雅黑";
+  font-weight: 100;
+  text-align: right;
+}
+.ct .ct-right .specval-div > input {
+  display: inline;
+  width: 200px;
+}
+.ct .ct-right .specval-div .xing {
+  color: #FF0000;
+}
+.ct .ct-right .specval-div span {
+  color: #FF0000;
+}
+.ct .ct-right .specval-div .specval-list {
+  display: inline-block;
+  width: 150px;
+}
+.ct .ct-right .specval-table {
+  width: 100%;
+}
+.ct .ct-right .specval-table table {
+  width: 90%;
+  border-collapse: collapse;
+}
+.ct .ct-right .specval-table table tr th {
+  border: 1px solid #CCCCCC;
+  text-align: center;
+}
+.ct .ct-right .specval-table table tr td {
+  height: 40px;
+  border: 1px solid #CCCCCC;
+  text-align: center;
+}
+.ct .ct-right .specval-table table tr .btn {
+  height: 30px;
+}
+.ct .ct-right .specval-table table th:nth-child(1) {
+  width: 5%;
+}
+.ct .ct-right .specval-table table th:nth-child(2) {
+  width: 10%;
+}
+.ct .ct-right .specval-table table th:nth-child(3) {
+  width: 20%;
+}
+.ct .ct-right .specval-table table th:nth-child(4) {
+  width: 20%;
+}
+.ct .ct-right .specval-table table th:nth-child(5) {
+  width: 20%;
+}
+.ct .ct-right .specval-table table th:nth-child(6) {
+  width: 20%;
+}
+.ct .ct-right .specval-table .btnpro {
+  padding: 0px;
+  width: 60px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 0px;
+}
+.ct .ct-right .specval-table .fenye {
+  width: 100%;
+  text-align: center;
+}
+.ct .ct-right #SpecvalModal .modal-body {
+  color: red;
+  text-align: center;
+}
+.ct .ct-right #SpecvalfailModal .modal-body {
+  color: red;
+  text-align: center;
+}
+.ct .ct-right .order-sogo {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  width: 100%;
+}
+.ct .ct-right .order-sogo .input-group {
+  margin-left: 0px;
+  width: 30%;
+}
+.ct .ct-right .nav-tabs {
+  width: 95%;
+}
+.ct .ct-right .order-fail {
+  margin-top: 10px;
+  width: 95%;
+  text-align: center;
+}
+.ct .ct-right .orderInfo {
+  display: block;
+}
+.ct .ct-right .orderInfo span:nth-child(1) {
+  font-family: "微软雅黑";
+  font-weight: bold;
+  color: #FF0000;
+}
+.ct .ct-right .orderInfo .font {
+  font-size: 13px;
+  font-family: "微软雅黑";
+  opacity: 0.7;
+  text-decoration: line-through;
+}
+.ct .ct-right .order-table {
+  width: 100%;
+}
+.ct .ct-right .order-table .font {
+  font-size: 12px;
+}
+.ct .ct-right .order-table .font1 {
+  font-size: 10px;
+  color: #CCCCCC;
+}
+.ct .ct-right .order-table table {
+  width: 95%;
+  border-collapse: collapse;
+  border-left: 1px solid #CCCCCC;
+  border-right: 1px solid #CCCCCC;
+}
+.ct .ct-right .order-table table tr th {
+  border-bottom: 1px solid #CCCCCC;
+  font-weight: normal;
+  font-family: Arial, 'Microsoft Yahei', '\5FAE\8F6F\96C5\9ED1';
+  height: 30px;
+  text-align: center;
+}
+.ct .ct-right .order-table table tr td {
+  height: 50px;
+  border-bottom: 1px solid #CCCCCC;
+  border-left: 1px solid #CCCCCC;
+  border-right: 1px solid #CCCCCC;
+  text-align: center;
+}
+.ct .ct-right .order-table table th:nth-child(1) {
+  width: 13%;
+}
+.ct .ct-right .order-table table th:nth-child(2) {
+  width: 6%;
+}
+.ct .ct-right .order-table table th:nth-child(3) {
+  width: 24%;
+}
+.ct .ct-right .order-table table th:nth-child(4) {
+  width: 4%;
+}
+.ct .ct-right .order-table table th:nth-child(5) {
+  width: 7%;
+}
+.ct .ct-right .order-table table th:nth-child(6) {
+  width: 7%;
+}
+.ct .ct-right .order-table table th:nth-child(7) {
+  width: 8%;
+}
+.ct .ct-right .order-table table th:nth-child(8) {
+  width: 6%;
+}
+.ct .ct-right .order-table table th:nth-child(9) {
+  width: 6%;
+}
+.ct .ct-right .order-table table th:nth-child(10) {
+  width: 10%;
+}
+.ct .ct-right .order-table table td:nth-child(10) > a {
+  display: block;
+  margin-bottom: 5px;
+}
+.ct .ct-right .order-table table td:nth-child(10) .btncss {
+  width: 80px;
+  padding: 0px;
+  margin-top: 3px;
+  border-radius: 0px;
+}
+.ct .ct-right .order-table .allbtn {
+  margin-top: 10px;
+  width: 100%;
+  margin-left: 60px;
+}
+.ct .ct-right .order-table .fenye {
+  width: 100%;
+  text-align: center;
+}
+.ct .ct-right .allbtn {
+  margin-top: 10px;
+  width: 100%;
+  margin-left: 60px;
+}
+.ct .ct-right .fenye {
+  width: 100%;
+  text-align: center;
+}
+.ct .ct-right .orderDtail {
+  width: 100%;
+}
+.ct .ct-right .orderDtail .order-div {
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+.ct .ct-right .orderDtail .order-div textarea {
+  display: inline-block;
+  margin-left: 120px;
+  width: 300px;
+  resize: none;
+}
+.ct .ct-right .orderDtail .order-div select {
+  display: inline-block;
+  width: 120px;
+}
+.ct .ct-right .orderDtail .order-div label {
+  width: 100px;
+  text-align: right;
+  font-weight: bold;
+}
+.ct .ct-right .orderDtail .order-div .labels {
+  text-align: right;
+  font-weight: bold;
+}
+.ct .ct-right .orderDtail .order-div input {
+  width: 100px;
+  outline: none;
+  text-align: center;
+  border: none;
+  border-bottom: 1px solid #CCCCCC;
+}
+.ct .ct-right .orderDtail .order-div .admin-order-address1 {
+  width: 200px;
+}
+.ct .ct-right .orderDtail .order-div .admin-order-address2 {
+  margin-top: 20px;
+  margin-left: 100px;
+  width: 80%;
+}
+.ct .ct-right .orderDtail .order-div .green {
+  color: green;
+}
+.ct .ct-right .orderDtail .order-div .red {
+  color: red;
+}
+.ct .ct-right .orderDtail .tijiao {
+  margin-top: 40px;
+  width: 100%;
+  text-align: center;
+}
+.ct .ct-right .evaluate {
+  width: 100%;
+}
+.ct .ct-right .evaluate .nav-tabs {
+  margin-top: 20px;
+  width: 95%;
+}
+.ct .ct-right .evaluate .evaluate-table table {
+  width: 95%;
+  border-collapse: collapse;
+}
+.ct .ct-right .evaluate .evaluate-table table tr th {
+  height: 40px;
+  border-bottom: 1px solid #CCCCCC;
+  font-weight: normal;
+  font-family: Arial, 'Microsoft Yahei', '\5FAE\8F6F\96C5\9ED1';
+  text-align: center;
+}
+.ct .ct-right .evaluate .evaluate-table table tr td {
+  border-bottom: 1px solid #CCCCCC;
+  text-align: center;
+}
+.ct .ct-right .evaluate .evaluate-table table tr .font {
+  font-size: 10px;
+}
+.ct .ct-right .evaluate .evaluate-table table tr .time {
+  opacity: 0.4;
+}
+.ct .ct-right .evaluate .evaluate-table table tr .green {
+  color: green;
+}
+.ct .ct-right .evaluate .evaluate-table table tr .red {
+  color: red;
+}
+.ct .ct-right .evaluate .evaluate-table table th:nth-child(1) {
+  width: 3%;
+}
+.ct .ct-right .evaluate .evaluate-table table th:nth-child(2) {
+  width: 5%;
+}
+.ct .ct-right .evaluate .evaluate-table table th:nth-child(3) {
+  width: 5%;
+}
+.ct .ct-right .evaluate .evaluate-table table th:nth-child(4) {
+  width: 13%;
+}
+.ct .ct-right .evaluate .evaluate-table table th:nth-child(5) {
+  width: 5%;
+}
+.ct .ct-right .evaluate .evaluate-table table th:nth-child(6) {
+  width: 35%;
+}
+.ct .ct-right .evaluate .evaluate-table table th:nth-child(7) {
+  width: 25%;
+}
+.ct .ct-right .evaluate .evaluate-table table th:nth-child(8) {
+  width: 15%;
+}
+.ct .ct-right .my-mess {
+  width: 100%;
+}
+.ct .ct-right .my-mess .nav-tabs {
+  margin-top: 20px;
+  width: 95%;
+}
+.ct .ct-right .my-mess .mess-table table {
+  width: 95%;
+  border-collapse: collapse;
+}
+.ct .ct-right .my-mess .mess-table table tr th {
+  height: 40px;
+  border-bottom: 1px solid #CCCCCC;
+  font-weight: normal;
+  font-family: Arial, 'Microsoft Yahei', '\5FAE\8F6F\96C5\9ED1';
+  text-align: center;
+}
+.ct .ct-right .my-mess .mess-table table tr td {
+  height: 45px;
+  border-bottom: 1px solid #CCCCCC;
+  text-align: center;
+}
+.ct .ct-right .my-mess .mess-table table tr .font {
+  font-weight: bold;
+}
+.ct .ct-right .my-mess .mess-table table tr .green {
+  color: green;
+}
+.ct .ct-right .my-mess .mess-table table tr .red {
+  color: red;
+}
+.ct .ct-right .my-mess .mess-table table th:nth-child(1) {
+  width: 5%;
+}
+.ct .ct-right .my-mess .mess-table table th:nth-child(2) {
+  width: 15%;
+}
+.ct .ct-right .my-mess .mess-table table th:nth-child(3) {
+  width: 15%;
+}
+.ct .ct-right .my-mess .mess-table table th:nth-child(4) {
+  width: 15%;
+}
+.ct .ct-right .my-mess .mess-table table th:nth-child(5) {
+  width: 25%;
+}
+.ct .ct-right .my-mess .mess-table table th:nth-child(6) {
+  width: 15%;
+}
+.ct .ct-right .send {
+  margin-top: 10px;
+  width: 95%;
+}
+.ct .ct-right .send textarea {
+  resize: none;
+  width: 400px;
+}
+.ct .ct-right .send .btn {
+  margin-top: 10px;
+}
+.ct .ct-right .admin-mess {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.ct .ct-right .admin-mess .admin-name {
+  width: 100%;
+  height: 30px;
+  border-bottom: 1px solid #CCCCCC;
+}
+.ct .ct-right .admin-mess .admin-name .font {
+  font-weight: bold;
+  margin-left: 20px;
+}
+.ct .ct-right .admin-mess .admin-name .green {
+  margin-left: 5px;
+  margin-right: 5px;
+  color: green;
+}
+.ct .ct-right .admin-mess .mess-screen {
+  width: 100%;
+  height: 350px;
+  overflow: scroll;
+}
+.ct .ct-right .admin-mess .admin-mess-div {
+  margin-bottom: 10px;
+}
+.ct .ct-right .admin-mess .admin-mess-div .red,
+.ct .ct-right .admin-mess .admin-mess-div .blue {
+  width: 100px;
+  text-align: right;
+  font-weight: bold;
+}
+.ct .ct-right .admin-mess .admin-mess-div .red {
+  color: red;
+}
+.ct .ct-right .admin-mess .admin-mess-div .blue {
+  color: blue;
+}
+.ct .ct-right .admin-mess .admin-mess-div .time {
+  margin-left: 10px;
+  opacity: 0.7;
+}
+.ct .ct-right .admin-mess .admin-mess-div .mess {
+  margin-left: 100px;
+}
+.ct .ct-right .after-sales {
+  width: 100%;
+}
+.ct .ct-right .after-sales .nav-tabs {
+  margin-top: 20px;
+  width: 95%;
+}
+.ct .ct-right .after-sales .sales-table table {
+  border-left: 1px solid #CCCCCC;
+  border-right: 1px solid #CCCCCC;
+  width: 95%;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+.ct .ct-right .after-sales .sales-table table tr th {
+  height: 40px;
+  border-bottom: 1px solid #CCCCCC;
+  font-weight: normal;
+  font-family: Arial, 'Microsoft Yahei', '\5FAE\8F6F\96C5\9ED1';
+  text-align: center;
+}
+.ct .ct-right .after-sales .sales-table table tr td {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  border-left: 1px solid #CCCCCC;
+  border-right: 1px solid #CCCCCC;
+  border-bottom: 1px solid #CCCCCC;
+  text-align: center;
+  height: 30px;
+}
+.ct .ct-right .after-sales .sales-table table tr .font {
+  font-weight: bold;
+}
+.ct .ct-right .after-sales .sales-table table tr .green {
+  margin-left: 5px;
+  color: green;
+}
+.ct .ct-right .after-sales .sales-table table tr .red {
+  margin-left: 5px;
+  color: red;
+}
+.ct .ct-right .after-sales .sales-table table th:nth-child(1) {
+  width: 3%;
+}
+.ct .ct-right .after-sales .sales-table table th:nth-child(2) {
+  width: 5%;
+}
+.ct .ct-right .after-sales .sales-table table th:nth-child(3) {
+  width: 5%;
+}
+.ct .ct-right .after-sales .sales-table table th:nth-child(4) {
+  width: 10%;
+}
+.ct .ct-right .after-sales .sales-table table th:nth-child(5) {
+  width: 15%;
+}
+.ct .ct-right .after-sales .sales-table table th:nth-child(6) {
+  width: 20%;
+}
+.ct .ct-right .after-sales .sales-table table th:nth-child(7) {
+  width: 20%;
+}
+.ct .ct-right .after-sales .sales-table table th:nth-child(8) {
+  width: 10%;
+}
+.ct .ct-right .after-sales .sales-table table th:nth-child(9) {
+  width: 15%;
+}
+/*# sourceMappingURL=admin.css.map */
